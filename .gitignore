@@ -1,36 +1,562 @@
 ﻿# ============================================================
-# ATLAS / RUTINAS HOGARES
+# RUTINAS HOGARES / CENTRALNOC
+# .gitignore
 # ============================================================
 
-# ------------------------------------------------------------
-# SECRETOS / CREDENCIALES
-# ------------------------------------------------------------
+
+# ============================================================
+# 1. SECRETOS / CREDENCIALES / CONFIGURACION LOCAL
+# ============================================================
+
 .env
 .env.*
 !.env.example
+
+**/.env
+**/.env.*
+!**/.env.example
 
 *.pem
 *.key
 *.pfx
 *.p12
+*.crt
 
 *password*
 *passwd*
 *secret*
 *token*
+*credentials*
 
-# ------------------------------------------------------------
-# PYTHON
-# ------------------------------------------------------------
+credentials.json
+secrets.json
+
+
+# ============================================================
+# 2. ENTORNOS VIRTUALES PYTHON
+# ============================================================
+
 .venv/
+.venv_prod/
 venv/
 env/
-.venv_prod/
 
 **/.venv/
+**/.venv_prod/
 **/venv/
 **/env/
-**/.venv_prod/
+
+.python-version
+
+
+# ============================================================
+# 3. CACHE / BYTECODE PYTHON
+# ============================================================
+
+__pycache__/
+**/__pycache__/
+
+*.py[cod]
+*$py.class
+
+*.pyc
+*.pyo
+*.pyd
+
+.pytest_cache/
+**/.pytest_cache/
+
+.mypy_cache/
+**/.mypy_cache/
+
+.ruff_cache/
+**/.ruff_cache/
+
+.pyre/
+.pytype/
+
+.coverage
+.coverage.*
+htmlcov/
+
+.cache/
+**/.cache/
+
+
+# ============================================================
+# 4. PIP / BUILD / DISTRIBUCION
+# ============================================================
+
+build/
+dist/
+
+**/build/
+**/dist/
+
+*.egg
+*.egg-info/
+**/*.egg-info/
+
+pip-wheel-metadata/
+
+wheels/
+
+
+# ============================================================
+# 5. IDE / EDITORES
+# ============================================================
+
+.vscode/
+**/.vscode/
+
+.idea/
+**/.idea/
+
+*.code-workspace
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+.vs/
+**/.vs/
+
+.project
+.classpath
+.settings/
+
+*.swp
+*.swo
+
+*~
+~$*
+
+
+# ============================================================
+# 6. WINDOWS / SISTEMA OPERATIVO
+# ============================================================
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+$RECYCLE.BIN/
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ============================================================
+# 7. LOGS
+# ============================================================
+
+*.log
+*.err
+*.out
+
+*.err.log
+*.out.log
+
+logs/
+**/logs/
+
+log/
+**/log/
+
+
+# ============================================================
+# 8. RUNTIME / DIAGNOSTICOS
+# ============================================================
+
+runtime/
+**/runtime/
+
+diagnosticos/
+**/diagnosticos/
+
+debug/
+**/debug/
+
+tmp/
+**/tmp/
+
+temp/
+**/temp/
+
+*.tmp
+*.temp
+
+
+# ============================================================
+# 9. PLAYWRIGHT / CHROMIUM
+# ============================================================
+
+.ms-playwright/
+**/.ms-playwright/
+
+.playwright/
+**/.playwright/
+
+playwright-report/
+**/playwright-report/
+
+test-results/
+**/test-results/
+
+
+# ============================================================
+# 10. PERFILES DE NAVEGADOR / SESIONES
+# ============================================================
+
+perfil_navegador/
+**/perfil_navegador/
+
+perfil_navegador.*/
+**/perfil_navegador.*/
+
+perfil_writer/
+**/perfil_writer/
+
+perfil_writer.*/
+**/perfil_writer.*/
+
+browser_profile/
+**/browser_profile/
+
+browser_profiles/
+**/browser_profiles/
+
+user_data_dir/
+**/user_data_dir/
+
+
+# Chromium / Chrome
+**/Default/Cache/
+**/Default/Code Cache/
+**/Default/GPUCache/
+**/Default/DawnGraphiteCache/
+**/Default/DawnWebGPUCache/
+
+**/Default/Session Storage/
+**/Default/Local Storage/
+**/Default/Network/
+**/Default/shared_proto_db/
+**/Default/Service Worker/
+
+**/ShaderCache/
+**/GrShaderCache/
+**/GraphiteDawnCache/
+
+**/Cookies
+**/Cookies-journal
+
+**/Web Data
+**/Web Data-journal
+
+**/Login Data
+**/Login Data-journal
+
+**/History
+**/History-journal
+
+**/Favicons
+**/Favicons-journal
+
+**/Preferences
+**/Secure Preferences
+
+
+# ============================================================
+# 11. NODE / FRONTEND
+# ============================================================
+
+node_modules/
+**/node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+
+.next/
+.nuxt/
+
+coverage/
+
+
+# ============================================================
+# 12. BASES DE DATOS LOCALES
+# ============================================================
+
+*.sqlite
+*.sqlite3
+
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+
+# ============================================================
+# 13. BACKUPS
+# ============================================================
+
+*.bak
+*.old
+*.backup
+
+*.bak.*
+
+_backup/
+**/_backup/
+
+_backups/
+**/_backups/
+
+backup/
+**/backup/
+
+backups/
+**/backups/
+
+*_backup/
+*_backup_*/
+
+*backup_*/
+
+
+# ============================================================
+# 14. ARCHIVOS COMPRIMIDOS
+# ============================================================
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+
+# ============================================================
+# 15. CAPTURAS / EVIDENCIAS GENERADAS
+# ============================================================
+
+screenshots/
+**/screenshots/
+
+captures/
+**/captures/
+
+capturas/
+**/capturas/
+
+evidencias/
+**/evidencias/
+
+descargas/
+**/descargas/
+
+downloads/
+**/downloads/
+
+
+# ============================================================
+# 16. ARCHIVOS OFFICE/PDF GENERADOS
+# ============================================================
+
+*.pdf
+
+*.doc
+*.docx
+
+*.xls
+*.xlsx
+
+*.ppt
+*.pptx
+
+
+# ============================================================
+# 17. ARCHIVOS DE PRUEBA LOCAL / RESULTADOS
+# ============================================================
+
+lista_100_inc.json
+lista_100_mixta.json
+
+resultado_100_*.json
+resultado_100_mixtos_*.json
+
+resultado_prueba_*.json
+resultados_prueba_*.json
+
+test_output*.json
+test_result*.json
+
+debug_*.json
+diagnostico_*.json
+
+
+# scripts temporales que usamos manualmente para pruebas
+sacar_100_inc.py
+sacar_100_mixtos.py
+probar_100_oracle.py
+probar_100_mixtos_api.py
+
+
+# ============================================================
+# 18. DATOS DE JOBS GENERADOS EN EJECUCION
+# ============================================================
+
+**/data/batch/jobs/
+**/data/jobs/
+
+**/data/batch/*.json
+
+# Si existen archivos necesarios de configuracion dentro de data,
+# NO usar una regla generica como **/data/
+
+
+# ============================================================
+# 19. RUNTIME HELIX
+# ============================================================
+
+**/runtime/helix/data/
+**/runtime/data/
+**/runtime/diagnosticos/
+
+
+# ============================================================
+# 20. API HELIX RELACIONADOS - DATOS OPERATIVOS
+# ============================================================
+
+api_rpa_helix_relacionados/data/batch/jobs/
+
+api_rpa_helix_relacionados/runtime/
+
+api_rpa_helix_relacionados/logs/
+
+api_rpa_helix_relacionados/screenshots/
+
+api_rpa_helix_relacionados/captures/
+
+api_rpa_helix_relacionados/diagnosticos/
+
+
+# ============================================================
+# 21. ORQUESTADOR - DATOS OPERATIVOS
+# ============================================================
+
+api_orquestador_hogares/storage/migration_8011/
+
+api_orquestador_hogares/data/helix_redes_neutras/descargas/
+
+api_orquestador_hogares/data/helix_redes_neutras/perfil_navegador/
+api_orquestador_hogares/data/helix_redes_neutras/perfil_navegador.*/
+
+api_orquestador_hogares/data/maximo_evidencias/
+
+api_orquestador_hogares/data/xpertrak_dashboard/
+
+
+# ============================================================
+# 22. SMCC ANALYTICS - DATOS OPERATIVOS
+# ============================================================
+
+api_smcc_analytics/data/conversations/
+api_smcc_analytics/data/events/
+api_smcc_analytics/data/sessions/
+
+
+# ============================================================
+# 23. DIRECCIONES CLIENTES - DATOS OPERATIVOS
+# ============================================================
+
+api_direccion_clientes/data/ftth_atp/
+
+
+# ============================================================
+# 24. MIGRACIONES / CERTIFICACIONES / ANALISIS LOCALES
+# ============================================================
+
+**/_migration/
+**/_migration_evidence/
+**/_migration_source_snapshot/
+
+**/_staging/
+
+**/_analisis/
+
+**/_certificacion/
+
+
+# ============================================================
+# 25. STORAGE LEGACY
+# ============================================================
+
+/storage/
+
+
+# ============================================================
+# 26. ARCHIVOS DE DIAGNOSTICO GENERADOS
+# ============================================================
+
+**/debug_note_html_v2/
+
+*.trace
+*.dump
+
+core
+core.*
+
+
+# ============================================================
+# 27. ARCHIVOS POWERSHELL TEMPORALES
+# ============================================================
+
+*.ps1.bak
+
+# NO ignorar *.ps1 en general:
+# RUN_API_8023.ps1 y otros scripts funcionales deben versionarse.
+
+
+# ============================================================
+# 28. NO IGNORAR ARCHIVOS IMPORTANTES
+# ============================================================
+
+!.gitignore
+
+!requirements.txt
+!**/requirements.txt
+
+!pyproject.toml
+!**/pyproject.toml
+
+!README.md
+!**/README.md
+
+!.env.example
+!**/.env.example
+
+# Mantener código del API
+!**/app/
+!**/app/**
+
+# Mantener scripts funcionales del proyecto.
+# Los scripts temporales concretos ya fueron ignorados arriba.
+!**/*.ps1
+
+
+
+
+# ============================================================
+# REGLAS FINALES - NO SUBIR CACHE PYTHON
+# ============================================================
 
 __pycache__/
 **/__pycache__/
@@ -40,170 +566,10 @@ __pycache__/
 *.pyd
 
 .pytest_cache/
+**/.pytest_cache/
+
 .mypy_cache/
+**/.mypy_cache/
+
 .ruff_cache/
-
-# ------------------------------------------------------------
-# PLAYWRIGHT / NODE
-# ------------------------------------------------------------
-.ms-playwright/
-**/.ms-playwright/
-
-.playwright/
-**/.playwright/
-
-node_modules/
-**/node_modules/
-
-# ------------------------------------------------------------
-# NAVEGADORES / PERFILES / SESIONES
-# ------------------------------------------------------------
-**/perfil_navegador/
-**/perfil_navegador.*/
-**/perfil_writer/
-**/perfil_writer.*/
-**/browser_profile/
-**/browser_profiles/
-
-**/Default/Cache/
-**/Default/Code Cache/
-**/Default/GPUCache/
-**/Default/DawnGraphiteCache/
-**/Default/DawnWebGPUCache/
-**/Default/Session Storage/
-**/Default/Local Storage/
-**/Default/Network/
-**/Default/shared_proto_db/
-**/Default/Service Worker/
-
-**/Cookies
-**/Cookies-journal
-**/Web Data
-**/Web Data-journal
-**/Login Data
-**/Login Data-journal
-
-# ------------------------------------------------------------
-# RUNTIME / DIAGNOSTICOS
-# ------------------------------------------------------------
-**/runtime/diagnosticos/
-**/diagnosticos/
-
-# ------------------------------------------------------------
-# LOGS
-# ------------------------------------------------------------
-logs/
-**/logs/
-
-*.log
-*.err.log
-*.out.log
-
-# ------------------------------------------------------------
-# BACKUPS / HISTORICOS
-# ------------------------------------------------------------
-_backups/
-**/_backups/
-
-backups/
-**/backups/
-
-backup/
-**/backup/
-
-*_backup_*/
-*backup_*/
-
-*.bak
-*.old
-
-# ------------------------------------------------------------
-# TEMPORALES
-# ------------------------------------------------------------
-temp/
-**/temp/
-
-tmp/
-**/tmp/
-
-*.tmp
-*.temp
-
-# ------------------------------------------------------------
-# ORQUESTADOR - DATOS OPERATIVOS
-# ------------------------------------------------------------
-api_orquestador_hogares/storage/migration_8011/
-
-api_orquestador_hogares/data/helix_redes_neutras/descargas/
-api_orquestador_hogares/data/helix_redes_neutras/perfil_navegador/
-api_orquestador_hogares/data/helix_redes_neutras/perfil_navegador.*/
-
-api_orquestador_hogares/data/maximo_evidencias/
-api_orquestador_hogares/data/xpertrak_dashboard/
-
-# ------------------------------------------------------------
-# BASES OPERATIVAS
-# ------------------------------------------------------------
-*.sqlite
-*.sqlite3
-*.db
-*.db-journal
-
-# ------------------------------------------------------------
-# CAPTURAS / EVIDENCIAS GENERADAS
-# ------------------------------------------------------------
-screenshots/
-**/screenshots/
-
-captures/
-**/captures/
-
-# ------------------------------------------------------------
-# COMPRIMIDOS
-# ------------------------------------------------------------
-*.zip
-*.7z
-*.rar
-*.tar
-*.gz
-
-# ============================================================
-# ATLAS - EXCLUSIONES OPERATIVAS ADICIONALES
-# ============================================================
-
-# Storage raiz = legado / migraciones / copias antiguas
-/storage/
-
-# Runtime generado
-**/runtime/helix/data/
-**/runtime/data/
-**/runtime/diagnosticos/
-
-# Datos operativos SMCC Analytics
-api_smcc_analytics/data/conversations/
-api_smcc_analytics/data/events/
-api_smcc_analytics/data/sessions/
-
-# Datos operativos Direcciones
-api_direccion_clientes/data/ftth_atp/
-
-# Descargas / evidencias
-**/descargas/
-**/evidencias/
-**/debug_note_html_v2/
-
-# Migraciones locales e historicos
-**/_migration/
-**/_migration_evidence/
-**/_migration_source_snapshot/
-**/_staging/
-**/_analisis/
-**/_certificacion/
-
-# Archivos Office/PDF generados como evidencia
-*.pdf
-*.doc
-*.docx
-*.xls
-*.xlsx
-
+**/.ruff_cache/

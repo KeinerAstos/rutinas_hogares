@@ -12,38 +12,7 @@ INC_RE = re.compile(r"^INC\d{12}$", re.I)
 TAS_RE = re.compile(r"^TAS\d{12}$", re.I)
 WO_RE = re.compile(r"^WO\d{7,}$", re.I)
 BOGOTA = ZoneInfo("America/Bogota")
-WO_STATES = {
-    0: "Assigned",
-    1: "Pending",
-    2: "Waiting Approval",
-    3: "Planning",
-    4: "In Progress",
-    5: "Completed",
-    6: "Rejected",
-    7: "Cancelled",
-    8: "Closed",
-}
-
-TASK_STATES = {
-    1000: "Staged",
-    2000: "Assigned",
-    3000: "Pending",
-    4000: "Work In Progress",
-    5000: "Waiting",
-    6000: "Closed",
-    7000: "Bypassed",
-    8000: "Cancelled",
-}
-
-INCIDENT_STATES = {
-    0: "New",
-    1: "Assigned",
-    2: "In Progress",
-    3: "Pending",
-    4: "Resolved",
-    5: "Closed",
-    6: "Cancelled",
-}
+WO_STATES = {0: "Assigned", 8: "Closed"}
 
 
 def clean(value) -> str:
@@ -118,10 +87,7 @@ def _alarm(row) -> dict:
 
 def _related(row: dict, kind: str) -> dict:
     code = _number(row.get("status"))
-    if kind == "WO":
-        state = WO_STATES.get(code, f"UNKNOWN_{code}")
-    else:
-        state = TASK_STATES.get(code, f"UNKNOWN_{code}")
+    state = WO_STATES.get(code, "PENDIENTE_VALIDAR") if kind == "WO" else "PENDIENTE_VALIDAR"
     return {
         "id": clean(row.get("work_order_id" if kind == "WO" else "task_id")),
         "tipo": kind if kind == "WO" else "TA",
@@ -218,11 +184,7 @@ def consultar_ticket(ticket: str, worker: int = 0) -> dict:
     }
     short = clean(incident.get("short_description"))
     title = short if short and short != "." else clean(incident.get("description"))
-    inc_code = _number(incident.get("status"))
-    inc_status = clean(incident.get("status_incident")) or INCIDENT_STATES.get(
-        inc_code,
-        f"UNKNOWN_{inc_code}",
-    )
+    inc_status = clean(incident.get("status_incident")) or "PENDIENTE_VALIDAR"
     if not details:
         status = "SIN_RELACIONADOS" if not any(e.startswith(("tas:", "wo:")) for e in errors) else "OK"
     else:
@@ -243,8 +205,5 @@ def consultar_ticket(ticket: str, worker: int = 0) -> dict:
         "worker": worker, "frame_url": "", "fuente_datos": "ORACLE_REPLICA", "error": "",
         "ticket_consultado": ticket, "tipo_consulta": kind, "tas_origen": tas_origen,
         "errores_parciales": errors,
-        **({"titulo_tarea": clean(parent.get("summary")), "estado_tarea": TASK_STATES.get(
-                _number(parent.get("status")),
-                f"UNKNOWN_{_number(parent.get('status'))}"
-            )} if kind == "TAS" else {}),
+        **({"titulo_tarea": clean(parent.get("summary")), "estado_tarea": "PENDIENTE_VALIDAR"} if kind == "TAS" else {}),
     }
