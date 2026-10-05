@@ -1,0 +1,44 @@
+{
+  "ok": false,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005738279",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006697671",
+      "tipo_relacion": "Created by",
+      "titulo": "GES_STA Problema de __FALLA MASIVA - Nodo 1-1-3-HFTH-1_ZAC-BOG.ATP_ASTURIAS-N1-C600",
+      "estado": "In Progress",
+      "usuario_asignado": "Cristian Guerrero",
+      "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+      "crear_fecha": "17/09/2026 14:50:58",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006697671",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 7,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "EVIDENCIA.docx",
+      "origen": "INC_NOTA_ACTIVIDAD_PAGINA_1",
+      "registro_actividad": 1,
+      "descargado": false,
+      "ruta_local": "",
+      "error": "Timeout 1800000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================"
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_DESCARGA_ADJUNTO_FALLIDA",
+  "duracion_seg": 1846.76
+}

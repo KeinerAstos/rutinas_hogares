@@ -1,0 +1,19 @@
+{
+  "ok": false,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005455971",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [],
+  "incidente_abierto": "",
+  "tabla_adjuntos_encontrada": false,
+  "actividad_revisada": false,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "No se encontró pestaña Elementos relacionados en la página ni en sus frames después de 240000 ms. Selectores: ['button[role=\"tab\"]:has-text(\"Elementos relacionados\")', '[data-testid$=\"_tab_2\"]:has-text(\"Elementos relacionados\")']",
+  "codigo": "HELIX_PRUEBA_FALLIDA",
+  "duracion_seg": 255.27
+}

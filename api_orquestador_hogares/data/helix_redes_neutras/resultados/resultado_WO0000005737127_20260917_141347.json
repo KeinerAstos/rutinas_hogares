@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005737127",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006693879",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R2_CIN_CTA.6635998_OT.477608709_UMM_IN_FTTH_ENVIGADO_SIN POTENCIA_XQ121E",
+      "estado": "In Progress",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGENOROCCIDENTE",
+      "crear_fecha": "17/09/2026 13:55:06",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006693879",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 3,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 3,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "2.png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005737127\\INC000006693879\\2.png",
+      "error": ""
+    },
+    {
+      "indice": 2,
+      "nombre": "3.png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": false,
+      "ruta_local": "",
+      "error": ""
+    },
+    {
+      "indice": 3,
+      "nombre": "5.png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": false,
+      "ruta_local": "",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 37.84
+}

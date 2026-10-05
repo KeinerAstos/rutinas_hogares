@@ -1,0 +1,15 @@
+{
+    "job_id":  "3c65c8c563e64199",
+    "estado":  "ERROR",
+    "total":  1,
+    "procesados":  0,
+    "workers":  1,
+    "creado":  "2026-09-03T11:27:27",
+    "iniciado":  "2026-09-03T11:27:27",
+    "finalizado":  "2026-09-29T12:29:21",
+    "duracion_seg":  0.0,
+    "resultados":  [
+
+                   ],
+    "error":  "JOB_STALE_DESBLOQUEADO_MANUALMENTE_2026-09-29T12:29:21"
+}

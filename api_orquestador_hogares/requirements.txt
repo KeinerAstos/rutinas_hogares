@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+paramiko
+netmiko
+openpyxl
+pandas
+APScheduler
+playwright
+beautifulsoup4
+PyMySQL==1.2.3

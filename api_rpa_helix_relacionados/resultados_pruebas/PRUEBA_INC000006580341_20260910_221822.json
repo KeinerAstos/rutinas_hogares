@@ -1,0 +1,90 @@
+﻿{
+    "ok":  true,
+    "job_id":  "338ca318c48c4c70",
+    "area":  "front",
+    "estado":  "COMPLETADO",
+    "total":  1,
+    "procesados":  1,
+    "pendientes":  0,
+    "workers":  1,
+    "creado":  "2026-09-10T22:18:23",
+    "iniciado":  "2026-09-10T22:18:23",
+    "finalizado":  "2026-09-10T22:19:10",
+    "duracion_seg":  47.15,
+    "resultados":  [
+                       {
+                           "inc":  "INC000006580341",
+                           "titulo":  "GES_STA Problema de Disponibilidad - Nodo 1-1-9-GFGH-14_ZAC-BAR.BOSTON_HOG-CP1 Incidente T\u0026D",
+                           "estado":  "OK",
+                           "estado_incidente":  "Resolved",
+                           "fecha_creacion_incidente":  "08/09/2026 18:38:45",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "BOTON_ALARMAS_NO_ENCONTRADO"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  1,
+                           "wo_relacionadas":  [
+                                                   "WO0000005663946"
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+                                                        {
+                                                            "id":  "INC000006580561",
+                                                            "tipo":  "INC",
+                                                            "tipo_relacion":  "Original of",
+                                                            "titulo":  "HELIX: Servicio creado automaticamente por incidente N INC000006580341",
+                                                            "estado":  "Resolved",
+                                                            "usuario_asignado":  "",
+                                                            "grupo_asignado":  "COL-NOIT-STA-ALIADO1",
+                                                            "crear_fecha":  "08/09/2026 18:40:17",
+                                                            "tipo_ticket":  "Incidencia",
+                                                            "estado_source":  "dom_relacionados"
+                                                        },
+                                                        {
+                                                            "id":  "WO0000005663946",
+                                                            "tipo":  "WO",
+                                                            "tipo_relacion":  "Created",
+                                                            "titulo":  "GES_STA Problema de Disponibilidad - Nodo 1-1-9-GFGH-14_ZAC-BAR.BOSTON_HOG-CP1 Incidente T\u0026D",
+                                                            "estado":  "Closed",
+                                                            "usuario_asignado":  "",
+                                                            "grupo_asignado":  "COL-NOIT-OPERACIONES-CAMPO-TRV",
+                                                            "crear_fecha":  "08/09/2026 18:51:19",
+                                                            "tipo_ticket":  "",
+                                                            "estado_source":  "dom_relacionados"
+                                                        }
+                                                    ],
+                           "duracion_seg":  40.45,
+                           "worker":  1,
+                           "frame_url":  "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co\u0026targetForm=Incident\u0026targetView=SV_View\u0026mode=GET\u0026targetId=AGGIZP7PA6WEEATLCK2LTLCK2LHNQ3\u0026rand=0.3015573818836834 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=2",
+                           "error":  "",
+                           "ticket_consultado":  "INC000006580341",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  ""
+                       }
+                   ],
+    "error":  ""
+}

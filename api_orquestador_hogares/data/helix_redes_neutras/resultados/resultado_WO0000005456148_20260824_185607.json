@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005456148",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000005925243",
+      "tipo_relacion": "Created",
+      "titulo": "FLUJO INFRA Battery on Standby Node VMJ SDS SDS-BOSTON Fuente: BARVMJPS01",
+      "estado": "Closed",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-FRONT-OFFICE-INFRAESTRUCTURA",
+      "crear_fecha": "30/07/2026 9:43:22",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000005925243",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 18,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_SIN_DOCUMENTOS_ADJUNTOS",
+  "duracion_seg": 31.09
+}

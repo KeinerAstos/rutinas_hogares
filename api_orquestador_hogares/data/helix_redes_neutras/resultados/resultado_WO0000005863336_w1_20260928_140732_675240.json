@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005863336",
+  "worker_id": 1,
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006889521",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R2_EJE_SIC_CTA.579561_LL.8838095_UMC_MTTO_FTTH_ARMENIA_SIN_POTENCIA_TRONCAL_ XG1087",
+      "estado": "In Progress",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGENOROCCIDENTE",
+      "crear_fecha": "28/09/2026 13:51:54",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006889521",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "validacion_adjuntos_wo_confirmada": true,
+  "validacion_adjuntos_inc_confirmada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 3,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 3,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "103.png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\xampp\\htdocs\\CentralNOC\\modules\\Dashboard_Hogar\\backend\\data\\redes_neutras\\WO0000005863336\\INC000006889521\\103.png",
+      "error": ""
+    },
+    {
+      "indice": 2,
+      "nombre": "100.png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\xampp\\htdocs\\CentralNOC\\modules\\Dashboard_Hogar\\backend\\data\\redes_neutras\\WO0000005863336\\INC000006889521\\100.png",
+      "error": ""
+    },
+    {
+      "indice": 3,
+      "nombre": "102.png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\xampp\\htdocs\\CentralNOC\\modules\\Dashboard_Hogar\\backend\\data\\redes_neutras\\WO0000005863336\\INC000006889521\\102.png",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 373.44
+}

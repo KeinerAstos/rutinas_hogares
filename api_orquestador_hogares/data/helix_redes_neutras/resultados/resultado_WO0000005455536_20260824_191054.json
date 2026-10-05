@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005455536",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000005915567",
+      "tipo_relacion": "Created by",
+      "titulo": "GES STA HFC Sin señal triple play NODO URR4D",
+      "estado": "Closed",
+      "usuario_asignado": "Brayan Carrillo",
+      "grupo_asignado": "COL-NOIT-STA-RED-EXTERNA",
+      "crear_fecha": "30/07/2026 9:50:17",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000005915567",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 21,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_SIN_DOCUMENTOS_ADJUNTOS",
+  "duracion_seg": 31.19
+}

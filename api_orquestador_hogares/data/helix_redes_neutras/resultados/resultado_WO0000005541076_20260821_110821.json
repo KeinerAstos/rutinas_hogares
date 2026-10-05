@@ -1,0 +1,23 @@
+{
+  "ok": false,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005541076",
+  "ot_encontrada": false,
+  "incidentes_relacionados": [],
+  "incidente_abierto": "",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": false,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "BrowserContext.close: Connection closed while reading from the driver",
+  "codigo": "HELIX_PRUEBA_FALLIDA",
+  "duracion_seg": 138.31
+}

@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005691824",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006635276",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_GNP_R4_RN_TAB_CTA.22584584_UMM­_MTO SIN POTENCIA TRONCAL X11441",
+      "estado": "In Progress",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGECENTRO",
+      "crear_fecha": "14/09/2026 8:25:10",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006635276",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 2,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "8703533_L_CO_781.docx",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005691824\\INC000006635276\\8703533_L_CO_781.docx",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 35.65
+}

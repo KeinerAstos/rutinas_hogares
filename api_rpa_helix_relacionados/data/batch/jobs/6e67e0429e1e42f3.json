@@ -1,0 +1,77 @@
+{
+  "job_id": "6e67e0429e1e42f3",
+  "estado": "COMPLETADO",
+  "total": 3,
+  "procesados": 3,
+  "workers": 1,
+  "creado": "2026-09-02T17:02:35",
+  "iniciado": "2026-09-02T17:02:35",
+  "finalizado": "2026-09-02T17:03:21",
+  "duracion_seg": 45.52,
+  "resultados": [
+    {
+      "inc": "INC000006387408",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node GC21 SDS: SDS-PEREIRA CENTRO Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 21,
+      "wo_relacionadas": [
+        "WO0000005501657",
+        "WO0000005527940",
+        "WO0000005537159",
+        "WO0000005545704",
+        "WO0000005550374",
+        "WO0000005552431",
+        "WO0000005555017",
+        "WO0000005559689",
+        "WO0000005559768",
+        "WO0000005571062",
+        "WO0000005576327",
+        "WO0000005577139",
+        "WO0000005580605",
+        "WO0000005581304",
+        "WO0000005582517",
+        "WO0000005585755",
+        "WO0000005590785",
+        "WO0000005596961",
+        "WO0000005600750",
+        "WO0000005603613",
+        "WO0000005617080"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 10.43,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGDCL9PHT11LATK0A00TK0A00DLG4&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006503810",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 14.78,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006503810:DETECTADO="
+    },
+    {
+      "inc": "INC000006509203",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node BMD SDS: SDS-PARAISO ROMANO Aliado: SICTE LTDA Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623740"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 14.75,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKRIXTTKRIXTCANZ&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

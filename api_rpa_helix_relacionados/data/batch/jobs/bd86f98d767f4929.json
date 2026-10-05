@@ -1,0 +1,161 @@
+{
+  "job_id": "bd86f98d767f4929",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-09T08:18:01",
+  "iniciado": "2026-09-09T08:18:01",
+  "finalizado": "2026-09-09T08:18:31",
+  "duracion_seg": 30.18,
+  "resultados": [
+    {
+      "inc": "INC000006572744",
+      "titulo": "Caida Flujo FTTH: CAIDA TOTAL TRONCAL GPON HAC-BOG.PLAZA_CLARO-CP1,FRAME=0 SLOT=15 SUBSLOT=65535 PORT=3 ID Alarm: 772907009 Alarma: The feeder fiber is broken or OLT can not receive any expected optical signals(LOS)",
+      "estado": "OK",
+      "estado_incidente": "Closed",
+      "fecha_creacion_incidente": "08/09/2026 10:56:48",
+      "alarmas": {
+        "consultado": true,
+        "total": 1,
+        "activas": 0,
+        "canceladas": 1,
+        "capturadas": 1,
+        "captura_completa": true,
+        "detalle": [
+          {
+            "dn": "HAC-BOG.PLAZA_CLARO-CP1",
+            "node": "HAC-BOG.PLAZA_CLARO-CP1,FRAME=0 SLOT=15 SUBSLOT=65535 PORT=3",
+            "creada": "08/09/2026 10:48:55",
+            "insertada": "08/09/2026 10:56:51",
+            "estado": "0",
+            "nomb_alarma": "The feeder fiber is broken or OLT can not receive any expected optical signals(LOS)",
+            "num_alarma": "772907009",
+            "fecha_hora_clareo": "08/09/2026 12:45:58",
+            "tecnologia": "",
+            "cancelado_por": "Auto_Netcool",
+            "relacionado_por": "NCE_FAN",
+            "sector_eb": "",
+            "serverserial": "1009150180",
+            "consec_nbr": "1009150180",
+            "color": "rgb(0, 0, 255)",
+            "activa": false,
+            "raw": [
+              "HAC-BOG.PLAZA_CLARO-CP1",
+              "HAC-BOG.PLAZA_CLARO-CP1,FRAME=0 SLOT=15 SUBSLOT=65535 PORT=3",
+              "08/09/2026 10:48:55",
+              "08/09/2026 10:56:51",
+              "0",
+              "The feeder fiber is broken or OLT can not receive any expected optical signals(LOS)",
+              "772907009",
+              "08/09/2026 12:45:58",
+              "",
+              "Auto_Netcool",
+              "NCE_FAN",
+              "",
+              "1009150180",
+              "1009150180"
+            ]
+          }
+        ],
+        "activas_detalle": [],
+        "source": "INT_NETCOOL_ALARMAS_V557",
+        "error": ""
+      },
+      "alarmas_total": 1,
+      "alarmas_activas_total": 0,
+      "alarmas_canceladas_total": 1,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [
+        {
+          "dn": "HAC-BOG.PLAZA_CLARO-CP1",
+          "node": "HAC-BOG.PLAZA_CLARO-CP1,FRAME=0 SLOT=15 SUBSLOT=65535 PORT=3",
+          "creada": "08/09/2026 10:48:55",
+          "insertada": "08/09/2026 10:56:51",
+          "estado": "0",
+          "nomb_alarma": "The feeder fiber is broken or OLT can not receive any expected optical signals(LOS)",
+          "num_alarma": "772907009",
+          "fecha_hora_clareo": "08/09/2026 12:45:58",
+          "tecnologia": "",
+          "cancelado_por": "Auto_Netcool",
+          "relacionado_por": "NCE_FAN",
+          "sector_eb": "",
+          "serverserial": "1009150180",
+          "consec_nbr": "1009150180",
+          "color": "rgb(0, 0, 255)",
+          "activa": false,
+          "raw": [
+            "HAC-BOG.PLAZA_CLARO-CP1",
+            "HAC-BOG.PLAZA_CLARO-CP1,FRAME=0 SLOT=15 SUBSLOT=65535 PORT=3",
+            "08/09/2026 10:48:55",
+            "08/09/2026 10:56:51",
+            "0",
+            "The feeder fiber is broken or OLT can not receive any expected optical signals(LOS)",
+            "772907009",
+            "08/09/2026 12:45:58",
+            "",
+            "Auto_Netcool",
+            "NCE_FAN",
+            "",
+            "1009150180",
+            "1009150180"
+          ]
+        }
+      ],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005661290"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000283638"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "INC000006573741",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006572744",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "08/09/2026 11:50:11",
+          "tipo_ticket": "Requerimiento",
+          "estado_source": "dom_relacionados"
+        },
+        {
+          "id": "WO0000005661290",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "Caida Flujo FTTH: CAIDA TOTAL TRONCAL GPON HAC-BOG.PLAZA_CLARO-CP1,FRAME=0 SLOT=15 SUBSLOT=65535 P",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "08/09/2026 10:56:59",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        },
+        {
+          "id": "TAS000000283638",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_tasks"
+        }
+      ],
+      "duracion_seg": 23.24,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGG72SDI5Y47ATLBYYOTLBYYO8DHK&rand=0.5186932847505978 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=3",
+      "error": "",
+      "ticket_consultado": "INC000006572744",
+      "tipo_consulta": "INC",
+      "tas_origen": ""
+    }
+  ],
+  "error": ""
+}

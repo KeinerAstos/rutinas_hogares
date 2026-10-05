@@ -1,0 +1,70 @@
+{
+  "job_id": "d3afc69cdcea4974",
+  "estado": "COMPLETADO",
+  "total": 4,
+  "procesados": 4,
+  "workers": 1,
+  "creado": "2026-09-02T17:05:51",
+  "iniciado": "2026-09-02T17:05:51",
+  "finalizado": "2026-09-02T17:07:19",
+  "duracion_seg": 88.33,
+  "resultados": [
+    {
+      "inc": "INC000006503810",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node C331 SDS: SDS-PALMIRA Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005627049"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 9.47,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGCLP6IAQIHTATKQM33TKQM33ZIN0&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006387408",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 32.22,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006387408:DETECTADO="
+    },
+    {
+      "inc": "INC000006509203",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node BMD SDS: SDS-PARAISO ROMANO Aliado: SICTE LTDA Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623740"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 9.79,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKRIXTTKRIXTCANZ&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006508404",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 31.34,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006508404:DETECTADO="
+    }
+  ],
+  "error": ""
+}

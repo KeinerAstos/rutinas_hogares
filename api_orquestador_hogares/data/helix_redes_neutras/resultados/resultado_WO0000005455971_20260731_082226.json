@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005455971",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000005915563",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_MIL_R1_INM CARTAGENA_CTA.48739543 _UMM_MTO HFC SIN SEÑAL NODO SDP",
+      "estado": "Closed",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-STA-RED-EXTERNA",
+      "crear_fecha": "30/07/2026 9:44:49",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000005915563",
+  "tabla_adjuntos_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 11,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "SDP.pdf",
+      "origen": "TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": false,
+      "ruta_local": "",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_DOCUMENTOS_ADJUNTOS_DETECTADOS",
+  "duracion_seg": 21.03
+}

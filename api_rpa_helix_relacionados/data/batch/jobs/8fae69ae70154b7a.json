@@ -1,0 +1,63 @@
+{
+  "job_id": "8fae69ae70154b7a",
+  "estado": "COMPLETADO",
+  "total": 3,
+  "procesados": 3,
+  "workers": 3,
+  "creado": "2026-09-02T16:00:23",
+  "iniciado": "2026-09-02T16:00:23",
+  "finalizado": "2026-09-02T16:00:47",
+  "duracion_seg": 23.87,
+  "resultados": [
+    {
+      "inc": "INC000005761532",
+      "titulo": "",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000177967"
+      ],
+      "duracion_seg": 13.87,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Task&targetView=SV_View&targetId=AGGF9WIQJCN8FAT9HHALT9HHALD54U&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000005764375",
+      "titulo": "",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 2,
+      "ta_relacionadas": [
+        "TAS000000158650",
+        "TAS000000174351"
+      ],
+      "duracion_seg": 13.93,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Task&targetView=SV_View&targetId=AGGCRM40A3EKHAT8R0Q3T8R0Q3LOD4&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000005748908",
+      "titulo": "",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 4,
+      "ta_relacionadas": [
+        "TAS000000154910",
+        "TAS000000154911",
+        "TAS000000154912",
+        "TAS000000155118"
+      ],
+      "duracion_seg": 13.49,
+      "worker": 3,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Task&targetView=SV_View&targetId=AGGC6553AQTVBAT8OUMQT8OUMQL6QR&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

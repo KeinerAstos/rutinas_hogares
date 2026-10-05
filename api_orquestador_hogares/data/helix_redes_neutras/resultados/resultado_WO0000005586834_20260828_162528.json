@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005586834",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006444110",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_RN_SIC_CTA.70864927_MTO_Mantenimiento FTTH_BOGOTA_ATP SECTOR SIN SEÑAL (P3) NODO XT160Q",
+      "estado": "In Progress",
+      "usuario_asignado": "ANGELA MICHEL GUIZA GUZMAN",
+      "grupo_asignado": "COL-NOIT-CGECENTRO",
+      "crear_fecha": "28/08/2026 16:14:42",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006444110",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": true,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 8,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 2,
+  "cantidad_adjuntos_wo": 1,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "David r.pdf",
+      "origen": "WO_WO_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005586834\\WO0000005586834\\David r.pdf",
+      "error": ""
+    },
+    {
+      "indice": 2,
+      "nombre": "David r.pdf",
+      "origen": "INC_INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005586834\\INC000006444110\\David r.pdf",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 54.82
+}

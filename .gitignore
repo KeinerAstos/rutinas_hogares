@@ -1,0 +1,209 @@
+﻿# ============================================================
+# ATLAS / RUTINAS HOGARES
+# ============================================================
+
+# ------------------------------------------------------------
+# SECRETOS / CREDENCIALES
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.pfx
+*.p12
+
+*password*
+*passwd*
+*secret*
+*token*
+
+# ------------------------------------------------------------
+# PYTHON
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+.venv_prod/
+
+**/.venv/
+**/venv/
+**/env/
+**/.venv_prod/
+
+__pycache__/
+**/__pycache__/
+
+*.pyc
+*.pyo
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------------------------------------
+# PLAYWRIGHT / NODE
+# ------------------------------------------------------------
+.ms-playwright/
+**/.ms-playwright/
+
+.playwright/
+**/.playwright/
+
+node_modules/
+**/node_modules/
+
+# ------------------------------------------------------------
+# NAVEGADORES / PERFILES / SESIONES
+# ------------------------------------------------------------
+**/perfil_navegador/
+**/perfil_navegador.*/
+**/perfil_writer/
+**/perfil_writer.*/
+**/browser_profile/
+**/browser_profiles/
+
+**/Default/Cache/
+**/Default/Code Cache/
+**/Default/GPUCache/
+**/Default/DawnGraphiteCache/
+**/Default/DawnWebGPUCache/
+**/Default/Session Storage/
+**/Default/Local Storage/
+**/Default/Network/
+**/Default/shared_proto_db/
+**/Default/Service Worker/
+
+**/Cookies
+**/Cookies-journal
+**/Web Data
+**/Web Data-journal
+**/Login Data
+**/Login Data-journal
+
+# ------------------------------------------------------------
+# RUNTIME / DIAGNOSTICOS
+# ------------------------------------------------------------
+**/runtime/diagnosticos/
+**/diagnosticos/
+
+# ------------------------------------------------------------
+# LOGS
+# ------------------------------------------------------------
+logs/
+**/logs/
+
+*.log
+*.err.log
+*.out.log
+
+# ------------------------------------------------------------
+# BACKUPS / HISTORICOS
+# ------------------------------------------------------------
+_backups/
+**/_backups/
+
+backups/
+**/backups/
+
+backup/
+**/backup/
+
+*_backup_*/
+*backup_*/
+
+*.bak
+*.old
+
+# ------------------------------------------------------------
+# TEMPORALES
+# ------------------------------------------------------------
+temp/
+**/temp/
+
+tmp/
+**/tmp/
+
+*.tmp
+*.temp
+
+# ------------------------------------------------------------
+# ORQUESTADOR - DATOS OPERATIVOS
+# ------------------------------------------------------------
+api_orquestador_hogares/storage/migration_8011/
+
+api_orquestador_hogares/data/helix_redes_neutras/descargas/
+api_orquestador_hogares/data/helix_redes_neutras/perfil_navegador/
+api_orquestador_hogares/data/helix_redes_neutras/perfil_navegador.*/
+
+api_orquestador_hogares/data/maximo_evidencias/
+api_orquestador_hogares/data/xpertrak_dashboard/
+
+# ------------------------------------------------------------
+# BASES OPERATIVAS
+# ------------------------------------------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ------------------------------------------------------------
+# CAPTURAS / EVIDENCIAS GENERADAS
+# ------------------------------------------------------------
+screenshots/
+**/screenshots/
+
+captures/
+**/captures/
+
+# ------------------------------------------------------------
+# COMPRIMIDOS
+# ------------------------------------------------------------
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# ============================================================
+# ATLAS - EXCLUSIONES OPERATIVAS ADICIONALES
+# ============================================================
+
+# Storage raiz = legado / migraciones / copias antiguas
+/storage/
+
+# Runtime generado
+**/runtime/helix/data/
+**/runtime/data/
+**/runtime/diagnosticos/
+
+# Datos operativos SMCC Analytics
+api_smcc_analytics/data/conversations/
+api_smcc_analytics/data/events/
+api_smcc_analytics/data/sessions/
+
+# Datos operativos Direcciones
+api_direccion_clientes/data/ftth_atp/
+
+# Descargas / evidencias
+**/descargas/
+**/evidencias/
+**/debug_note_html_v2/
+
+# Migraciones locales e historicos
+**/_migration/
+**/_migration_evidence/
+**/_migration_source_snapshot/
+**/_staging/
+**/_analisis/
+**/_certificacion/
+
+# Archivos Office/PDF generados como evidencia
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+

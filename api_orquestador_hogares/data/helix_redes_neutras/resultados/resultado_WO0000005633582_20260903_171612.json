@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005633582",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006518556",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_GNP_R3_RN_TAB_FTTH CTA_ 40871914_UMM_MANTENIMIENTO_CALI_SIN POTENCIA TRONCAL XK1097",
+      "estado": "In Progress",
+      "usuario_asignado": "YENY TATIANA HERNANDEZ VALENCIA",
+      "grupo_asignado": "COL-NOIT-CGEOCCIDENTE",
+      "crear_fecha": "03/09/2026 16:57:32",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006518556",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 10,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "Evidencias (6).pdf",
+      "origen": "INC_INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005633582\\INC000006518556\\Evidencias (6).pdf",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 33.15
+}

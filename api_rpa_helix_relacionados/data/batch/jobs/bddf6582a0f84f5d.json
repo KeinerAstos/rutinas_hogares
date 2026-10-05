@@ -1,0 +1,110 @@
+{
+  "job_id": "bddf6582a0f84f5d",
+  "estado": "COMPLETADO",
+  "total": 6,
+  "procesados": 6,
+  "workers": 6,
+  "creado": "2026-09-02T15:55:44",
+  "iniciado": "2026-09-02T15:55:44",
+  "finalizado": "2026-09-02T15:56:35",
+  "duracion_seg": 51.04,
+  "resultados": [
+    {
+      "inc": "INC000005683138",
+      "titulo": "Prueba 3play - MIGUEL CHARRY - HELSON",
+      "estado": "RELACIONADOS_NO_CONFIRMADO",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 11.03,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=IDGAV6GUCB45SAT8IMIVT8IMIV23WE&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000005748908",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node CAR12D SDS: SDS-RESTREPO Aliado: CICSA COLOMBIA S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 2,
+      "wo_relacionadas": [
+        "WO0000005419261",
+        "WO0000005420181"
+      ],
+      "total_ta": 4,
+      "ta_relacionadas": [
+        "TAS000000154910",
+        "TAS000000154911",
+        "TAS000000154912",
+        "TAS000000155118"
+      ],
+      "duracion_seg": 14.19,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGB1WMOH55OIAT8LAZRT8LAZRFNMY&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000005761532",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 15.51,
+      "worker": 3,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000005761532"
+    },
+    {
+      "inc": "INC000005764255",
+      "titulo": "Flujo FTTH: TRONCAL PARCIALMENTE CAIDA HAC-BOG.FONTIBONH-CP1,Frame=0 Slot=1 Subslot=65535 Port=9 ID Alarm: optica_parcial",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005421901"
+      ],
+      "total_ta": 5,
+      "ta_relacionadas": [
+        "TAS000000151871",
+        "TAS000000152387",
+        "TAS000000152388",
+        "TAS000000152389",
+        "TAS000000152390"
+      ],
+      "duracion_seg": 25.33,
+      "worker": 4,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGB1WMOH55OIAT8LLNZT8LLNZ7XN9&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000005764375",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 27.01,
+      "worker": 5,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000005764375"
+    },
+    {
+      "inc": "INC000005766296",
+      "titulo": "Problema de __FALLA MASIVA - Nodo 1-1-5-HFTH-16_ZAC-CUN.AUTODROMO-M1-C600. Se ha generado un incidente por medio de t&d ya que se evidencia un fallo en la zona, por favor area NOC validar el diagnostico para determinar si debe enviarse una ot a campo",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000119173"
+      ],
+      "duracion_seg": 34.74,
+      "worker": 6,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGBOEHDE5Y01AT8LPELT8LPEL46X5&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

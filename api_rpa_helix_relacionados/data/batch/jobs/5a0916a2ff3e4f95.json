@@ -1,0 +1,50 @@
+{
+  "job_id": "5a0916a2ff3e4f95",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-08T16:51:49",
+  "iniciado": "2026-09-08T16:51:49",
+  "finalizado": "2026-09-08T16:53:17",
+  "duracion_seg": 87.86,
+  "resultados": [
+    {
+      "inc": "INC000006073112",
+      "titulo": "Perdida de acceso",
+      "estado": "SIN_RELACIONADOS",
+      "estado_incidente": "Closed",
+      "fecha_creacion_incidente": "09/08/2026 15:48:04",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [],
+      "duracion_seg": 82.82,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=IDGJMR0VG8GJYAT98P76T98P76WEKC&rand=0.38611053563502795 | TAB_MODO=EMPTY_RELATED_AND_TASKS_CONFIRMED_V443 | PAGINAS=1 | TOTAL_REL=0",
+      "error": "",
+      "ticket_consultado": "INC000006073112",
+      "tipo_consulta": "INC",
+      "tas_origen": ""
+    }
+  ],
+  "error": ""
+}

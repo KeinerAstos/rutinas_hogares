@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005864151",
+  "worker_id": 2,
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006889575",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R2_INM_CTA.54413405_LLS.8775662_UMM_MTO FTTH_MEDELLIN_SIN POTENCIA_TRONCAL XQ155H",
+      "estado": "In Progress",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGENOROCCIDENTE",
+      "crear_fecha": "28/09/2026 14:17:45",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006889575",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "validacion_adjuntos_wo_confirmada": true,
+  "validacion_adjuntos_inc_confirmada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 3,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 3,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "descarga (38).png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\xampp\\htdocs\\CentralNOC\\modules\\Dashboard_Hogar\\backend\\data\\redes_neutras\\WO0000005864151\\INC000006889575\\descarga (38).png",
+      "error": ""
+    },
+    {
+      "indice": 2,
+      "nombre": "descarga (42).png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\xampp\\htdocs\\CentralNOC\\modules\\Dashboard_Hogar\\backend\\data\\redes_neutras\\WO0000005864151\\INC000006889575\\descarga (42).png",
+      "error": ""
+    },
+    {
+      "indice": 3,
+      "nombre": "descarga (43).png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\xampp\\htdocs\\CentralNOC\\modules\\Dashboard_Hogar\\backend\\data\\redes_neutras\\WO0000005864151\\INC000006889575\\descarga (43).png",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 363.53
+}

@@ -1,0 +1,87 @@
+{
+  "job_id": "73e8b481a6754c3c",
+  "estado": "COMPLETADO",
+  "total": 4,
+  "procesados": 4,
+  "workers": 4,
+  "creado": "2026-09-02T15:35:35",
+  "iniciado": "2026-09-02T15:35:35",
+  "finalizado": "2026-09-02T15:36:02",
+  "duracion_seg": 27.21,
+  "resultados": [
+    {
+      "inc": "INC000005748908",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node CAR12D SDS: SDS-RESTREPO Aliado: CICSA COLOMBIA S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 4,
+      "ta_relacionadas": [
+        "TAS000000154910",
+        "TAS000000154911",
+        "TAS000000154912",
+        "TAS000000155118"
+      ],
+      "duracion_seg": 14.61,
+      "worker": 1,
+      "frame_url": "https://miasistencia360-smartit.claro.com.co/smartit/app/#/search/INC000005748908",
+      "error": ""
+    },
+    {
+      "inc": "INC000005764375",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node UCV SDS: SDS-JAMUNDI Aliado: DICO TELECOMUNICACIONES S.A. Ges",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 2,
+      "ta_relacionadas": [
+        "TAS000000158650",
+        "TAS000000174351"
+      ],
+      "duracion_seg": 13.3,
+      "worker": 4,
+      "frame_url": "https://miasistencia360-smartit.claro.com.co/smartit/app/#/search/INC000005764375",
+      "error": ""
+    },
+    {
+      "inc": "INC000005764255",
+      "titulo": "Flujo FTTH: TRONCAL PARCIALMENTE CAIDA HAC-BOG.FONTIBONH-CP1,Frame=0 Slot=1 Subslot=65535 Port=9 ID Alarm: optica_parcial",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005421901"
+      ],
+      "total_ta": 5,
+      "ta_relacionadas": [
+        "TAS000000151871",
+        "TAS000000152387",
+        "TAS000000152388",
+        "TAS000000152389",
+        "TAS000000152390"
+      ],
+      "duracion_seg": 16.15,
+      "worker": 3,
+      "frame_url": "https://miasistencia360-smartit.claro.com.co/smartit/app/#/search/INC000005764255",
+      "error": ""
+    },
+    {
+      "inc": "INC000005761532",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node EHJ SDS: SDS-ESPACIO SUR Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005420027"
+      ],
+      "total_ta": 2,
+      "ta_relacionadas": [
+        "TAS000000177967",
+        "TAS000000178981"
+      ],
+      "duracion_seg": 20.47,
+      "worker": 2,
+      "frame_url": "https://miasistencia360-smartit.claro.com.co/smartit/app/#/search/INC000005761532",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

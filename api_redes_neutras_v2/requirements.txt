@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+playwright
+Pillow
+pywin32
+Pillow
+PyMuPDF

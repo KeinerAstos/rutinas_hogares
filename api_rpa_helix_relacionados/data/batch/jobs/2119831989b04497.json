@@ -1,0 +1,74 @@
+{
+  "job_id": "2119831989b04497",
+  "estado": "COMPLETADO",
+  "total": 4,
+  "procesados": 4,
+  "workers": 1,
+  "creado": "2026-09-03T08:34:44",
+  "iniciado": "2026-09-03T08:34:44",
+  "finalizado": "2026-09-03T08:36:45",
+  "duracion_seg": 120.1,
+  "resultados": [
+    {
+      "inc": "INC000006508404",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node SH3D2D,SH3D4D SDS: SDS-GARCES NAVAS Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623703"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000262717"
+      ],
+      "duracion_seg": 21.62,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGACX33I7HHNATKRF6MTKRF6MIU42&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006503810",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 50.23,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006503810"
+    },
+    {
+      "inc": "INC000006509203",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node BMD SDS: SDS-PARAISO ROMANO Aliado: SICTE LTDA Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623740"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000263449"
+      ],
+      "duracion_seg": 11.37,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKRIXTTKRIXTCANZ&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006387408",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 30.92,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006387408:DETECTADO="
+    }
+  ],
+  "error": ""
+}

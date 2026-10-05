@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005688429",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006626556",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R2_CIN_CTA.59543875_OT.477809062_UMM_IN MEDELLIN PUERTOS MALOS TRONCAL XQ1795",
+      "estado": "Resolved",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGENOROCCIDENTE",
+      "crear_fecha": "12/09/2026 16:25:37",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006626556",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 7,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "FTTH.xls",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005688429\\INC000006626556\\FTTH.xls",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 36.15
+}

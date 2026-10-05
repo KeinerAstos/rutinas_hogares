@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005455971",
+  "ot_encontrada": false,
+  "incidentes_relacionados": [],
+  "incidente_abierto": "",
+  "tabla_adjuntos_encontrada": false,
+  "actividad_revisada": false,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_OT_NO_ENCONTRADA",
+  "duracion_seg": 9.98
+}

@@ -1,0 +1,1107 @@
+{
+  "job_id": "8a7804fbb5d3420e",
+  "estado": "COMPLETADO",
+  "total": 12,
+  "procesados": 12,
+  "workers": 7,
+  "creado": "2026-09-08T17:19:32",
+  "iniciado": "2026-09-08T17:19:32",
+  "finalizado": "2026-09-08T17:23:55",
+  "duracion_seg": 263.0,
+  "resultados": [
+    {
+      "inc": "INC000005785180",
+      "titulo": "SOC - [ID: 1143583] - Degradacion QoE - [NODO EIB (ESTADIO ISAIAS BOLIVAR)] - Falla en Fugas, Ruido, Niveles",
+      "estado": "OK",
+      "estado_incidente": "In Progress",
+      "fecha_creacion_incidente": "23/07/2026 14:34:08",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005426885"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000153436"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "INC000005905725",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005785180",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "29/07/2026 14:39:19",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000005976355",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005785180",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "01/08/2026 18:20:19",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006142828",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005785180",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "10/08/2026 10:21:23",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005426885",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "(SOC) - Degradacion QoE - (NODO EIB (ESTADIO ISAIAS BOLIVAR)) - Falla en Fugas, Ruido, Niveles",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "23/07/2026 14:34:17",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000153436",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 29.44,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGGG3OLGJAZAAT8NHOWT8NHOWYHSN&rand=0.3598996542792633 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=5",
+      "error": "",
+      "ticket_consultado": "TAS000000153436",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000153436",
+      "titulo_tarea": "SOC - (ID: 1143583) - Degradacion QoE - (NODO EIB (ESTADIO ISAIAS BOLIVAR)) - Falla en Fugas, Ruido, Niveles",
+      "estado_tarea": "Pending"
+    },
+    {
+      "inc": "INC000005761660",
+      "titulo": "SOC - [ID: 1112631] - Degradacion QoE - [CLUSTER 2C3023,2C3024 ()] - Falla en DW, Fugas, Ruido, Niveles",
+      "estado": "OK",
+      "estado_incidente": "In Progress",
+      "fecha_creacion_incidente": "22/07/2026 15:26:52",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005421473"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000150119"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "INC000006344270",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005761660",
+          "estado": "Resolved",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "20/08/2026 12:00:55",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006347636",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005761660",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "20/08/2026 15:56:42",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005421473",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "(SOC) - Degradacion QoE - (CLUSTER 2C3023,2C3024 ()) - Falla en DW, Fugas, Ruido, Niveles",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "22/07/2026 15:27:50",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000150119",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 29.23,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGGG3OLGJAZAAT8L56ST8L56SXB37&rand=0.21433314314153995 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=4",
+      "error": "",
+      "ticket_consultado": "TAS000000150119",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000150119",
+      "titulo_tarea": "SOC - (ID: 1112631) - Degradacion QoE - (CLUSTER 2C3023,2C3024 ()) - Falla en DW, Fugas, Ruido, Niveles",
+      "estado_tarea": "Pending"
+    },
+    {
+      "inc": "INC000005760644",
+      "titulo": "SOC - [ID: 1403851] - Degradacion QoE - [NODO ARK (ARKABAL)] - Falla en Preequalizacion, Fugas, Ruido, Niveles",
+      "estado": "OK",
+      "estado_incidente": "In Progress",
+      "fecha_creacion_incidente": "22/07/2026 15:28:05",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005421856"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000150380"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005421856",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "(SOC) - Degradacion QoE - (NODO ARK (ARKABAL)) - Falla en Preequalizacion, Fugas, Ruido, Niveles",
+          "estado": "Assigned",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "22/07/2026 15:28:36",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000150380",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 29.38,
+      "worker": 3,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGAJ1WUCRLUCAT8L58TT8L58THO6G&rand=0.961563209819406 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=2",
+      "error": "",
+      "ticket_consultado": "TAS000000150380",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000150380",
+      "titulo_tarea": "SOC - (ID: 1403851) - Degradacion QoE - (NODO ARK (ARKABAL)) - Falla en Preequalizacion, Fugas, Ruido, Niveles",
+      "estado_tarea": "Pending"
+    },
+    {
+      "inc": "INC000005760650",
+      "titulo": "SOC - [ID: 1010382] - Degradacion QoE - [NODO ZCA (ZIPAQUIRA COMUNEROS 1)] - Falla en Ruido, Niveles",
+      "estado": "OK",
+      "estado_incidente": "In Progress",
+      "fecha_creacion_incidente": "22/07/2026 15:29:58",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005421859"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000150382"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "INC000005810535",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005760650",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "24/07/2026 15:10:56",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006007151",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005760650",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/08/2026 13:25:02",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005421859",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "(SOC) - Degradacion QoE - (NODO ZCA (ZIPAQUIRA COMUNEROS 1)) - Falla en Ruido, Niveles",
+          "estado": "Assigned",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "22/07/2026 15:30:16",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000150382",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 29.35,
+      "worker": 4,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGAJ1WUCRLUCAT8L5LYT8L5LYHR9X&rand=0.5314791258620802 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=4",
+      "error": "",
+      "ticket_consultado": "TAS000000150382",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000150382",
+      "titulo_tarea": "SOC - (ID: 1010382) - Degradacion QoE - (NODO ZCA (ZIPAQUIRA COMUNEROS 1)) - Falla en Ruido, Niveles",
+      "estado_tarea": "Pending"
+    },
+    {
+      "inc": "INC000005748207",
+      "titulo": "SOC - [ID: 356538] - Degradacion QoE - [NODO 8B74A (BULEVAR SEG. 4A)] - Falla en Ruido, Niveles",
+      "estado": "OK",
+      "estado_incidente": "In Progress",
+      "fecha_creacion_incidente": "22/07/2026 9:51:49",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005418482"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000149517"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005418482",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "(SOC) - Degradacion QoE - (NODO 8B74A (BULEVAR SEG. 4A)) - Falla en Ruido, Niveles",
+          "estado": "In Progress",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "22/07/2026 9:52:14",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000149517",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 29.13,
+      "worker": 5,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGGG3OLGJAZAAT8KZY3T8KZY3M4X6&rand=0.5215667742545551 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=2",
+      "error": "",
+      "ticket_consultado": "TAS000000149517",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000149517",
+      "titulo_tarea": "SOC - (ID: 356538) - Degradacion QoE - (NODO 8B74A (BULEVAR SEG. 4A)) - Falla en Ruido, Niveles",
+      "estado_tarea": "Pending"
+    },
+    {
+      "inc": "INC000005749973",
+      "titulo": "SOC - [ID: 1559193] - Degradacion QoE - [NODO RVR23B (RESERVA DEL MAR 2 23B)] - Falla en Ruido, Niveles",
+      "estado": "OK",
+      "estado_incidente": "In Progress",
+      "fecha_creacion_incidente": "22/07/2026 11:08:15",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005419189"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000149896"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "INC000006140989",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "10/08/2026 9:31:46",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006307025",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Resolved",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "17/08/2026 15:02:39",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006307136",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Resolved",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "17/08/2026 15:54:08",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006322467",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Resolved",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "18/08/2026 18:09:47",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006323256",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Resolved",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "18/08/2026 18:57:32",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006336753",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Resolved",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "19/08/2026 17:27:26",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006444345",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "28/08/2026 16:03:27",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006503739",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 8:26:09",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006503883",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 9:46:52",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006563416",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005749973",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "07/09/2026 13:17:42",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005419189",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "(SOC) - Degradacion QoE - (NODO RVR23B (RESERVA DEL MAR 2 23B)) - Falla en Ruido, Niveles",
+          "estado": "Assigned",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "22/07/2026 11:08:31",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000149896",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 29.7,
+      "worker": 6,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGAJ1WUCRLUCAT8LD7RT8LD7RBF0Y&rand=0.5722999613436056 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=12",
+      "error": "",
+      "ticket_consultado": "TAS000000149896",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000149896",
+      "titulo_tarea": "SOC - (ID: 1559193) - Degradacion QoE - (NODO RVR23B (RESERVA DEL MAR 2 23B)) - Falla en Ruido, Niveles",
+      "estado_tarea": "Pending"
+    },
+    {
+      "inc": "INC000003982229",
+      "titulo": "BO HFC - Atenuación forward nodo TY2",
+      "estado": "OK",
+      "estado_incidente": "Cancelled",
+      "fecha_creacion_incidente": "22/04/2026 9:32:50",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005193455"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000085132"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005193455",
+          "tipo": "WO",
+          "tipo_relacion": "Created",
+          "titulo": "BO HFC - Atenuación forward nodo TY2",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "22/04/2026 10:40:57",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000085132",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 28.74,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=IDGGNZ4DJ0ZY7AT3W5VCT3W5VCSYWA&rand=0.4491416555239264 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=2",
+      "error": "",
+      "ticket_consultado": "TAS000000085132",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000085132",
+      "titulo_tarea": "BO HFC - Atenuación forward nodo TY2",
+      "estado_tarea": "Staged"
+    },
+    {
+      "inc": "INC000004023909",
+      "titulo": "Prueba 22-04-2026",
+      "estado": "OK",
+      "estado_incidente": "Cancelled",
+      "fecha_creacion_incidente": "22/04/2026 17:45:13",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000085133"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "TAS000000085133",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "Tarea",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 56.04,
+      "worker": 7,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=IDGFDIUND2E7GAT3XDCOT3XDCOFHGJ&rand=0.47336934680715437 | TAB_MODO=TASKS_TAB_CAPTURED_V556 | PAGINAS=1 | TOTAL_REL=1",
+      "error": "",
+      "ticket_consultado": "TAS000000085133",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000085133",
+      "titulo_tarea": "Prueba 22-04-2026",
+      "estado_tarea": "Staged"
+    },
+    {
+      "inc": "INC000003976946",
+      "titulo": "BO-HFC: ATENUACION FW NODO 2B0014",
+      "estado": "OK",
+      "estado_incidente": "Cancelled",
+      "fecha_creacion_incidente": "22/04/2026 9:23:17",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005193304"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000085131"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005193304",
+          "tipo": "WO",
+          "tipo_relacion": "Created",
+          "titulo": "BO-HFC: ATENUACION FW NODO 2B0014",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "22/04/2026 9:55:53",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000085131",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 29.21,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=IDGFVCUFCI67YAT3W4J3T3W4J3MZQR&rand=0.8053714257617811 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=2",
+      "error": "",
+      "ticket_consultado": "TAS000000085131",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000085131",
+      "titulo_tarea": "BO-HFC: ATENUACION FW NODO 2B0014",
+      "estado_tarea": "Staged"
+    },
+    {
+      "inc": "INC000003621817",
+      "titulo": "FLUJO RPHI Equipo: ANTI-COPAC-M-01-DAAS SDS: NULL Alarma: Link Down ( xe-0/0/17 )",
+      "estado": "OK",
+      "estado_incidente": "Cancelled",
+      "fecha_creacion_incidente": "14/04/2026 18:24:14",
+      "alarmas": {
+        "consultado": true,
+        "total": 1,
+        "activas": 1,
+        "canceladas": 0,
+        "capturadas": 1,
+        "captura_completa": true,
+        "detalle": [
+          {
+            "dn": "172.24.254.26",
+            "node": "ANTI-COPAC-M-01-DAAS",
+            "creada": "14/04/2026 18:19:55",
+            "insertada": "14/04/2026 18:24:46",
+            "estado": "1",
+            "nomb_alarma": "Link Down ( xe-0/0/17 )",
+            "num_alarma": "0001",
+            "fecha_hora_clareo": "",
+            "tecnologia": "",
+            "cancelado_por": "",
+            "relacionado_por": "CMTS-DAAS",
+            "sector_eb": "",
+            "serverserial": "1920263689",
+            "consec_nbr": "1920263689",
+            "color": "rgb(255, 0, 0)",
+            "activa": true,
+            "raw": [
+              "172.24.254.26",
+              "ANTI-COPAC-M-01-DAAS",
+              "14/04/2026 18:19:55",
+              "14/04/2026 18:24:46",
+              "1",
+              "Link Down ( xe-0/0/17 )",
+              "0001",
+              "",
+              "",
+              "",
+              "CMTS-DAAS",
+              "",
+              "1920263689",
+              "1920263689"
+            ]
+          }
+        ],
+        "activas_detalle": [
+          {
+            "dn": "172.24.254.26",
+            "node": "ANTI-COPAC-M-01-DAAS",
+            "creada": "14/04/2026 18:19:55",
+            "insertada": "14/04/2026 18:24:46",
+            "estado": "1",
+            "nomb_alarma": "Link Down ( xe-0/0/17 )",
+            "num_alarma": "0001",
+            "fecha_hora_clareo": "",
+            "tecnologia": "",
+            "cancelado_por": "",
+            "relacionado_por": "CMTS-DAAS",
+            "sector_eb": "",
+            "serverserial": "1920263689",
+            "consec_nbr": "1920263689",
+            "color": "rgb(255, 0, 0)",
+            "activa": true,
+            "raw": [
+              "172.24.254.26",
+              "ANTI-COPAC-M-01-DAAS",
+              "14/04/2026 18:19:55",
+              "14/04/2026 18:24:46",
+              "1",
+              "Link Down ( xe-0/0/17 )",
+              "0001",
+              "",
+              "",
+              "",
+              "CMTS-DAAS",
+              "",
+              "1920263689",
+              "1920263689"
+            ]
+          }
+        ],
+        "source": "INT_NETCOOL_ALARMAS_V557",
+        "error": ""
+      },
+      "alarmas_total": 1,
+      "alarmas_activas_total": 1,
+      "alarmas_canceladas_total": 0,
+      "alarmas_activas_detalle": [
+        {
+          "dn": "172.24.254.26",
+          "node": "ANTI-COPAC-M-01-DAAS",
+          "creada": "14/04/2026 18:19:55",
+          "insertada": "14/04/2026 18:24:46",
+          "estado": "1",
+          "nomb_alarma": "Link Down ( xe-0/0/17 )",
+          "num_alarma": "0001",
+          "fecha_hora_clareo": "",
+          "tecnologia": "",
+          "cancelado_por": "",
+          "relacionado_por": "CMTS-DAAS",
+          "sector_eb": "",
+          "serverserial": "1920263689",
+          "consec_nbr": "1920263689",
+          "color": "rgb(255, 0, 0)",
+          "activa": true,
+          "raw": [
+            "172.24.254.26",
+            "ANTI-COPAC-M-01-DAAS",
+            "14/04/2026 18:19:55",
+            "14/04/2026 18:24:46",
+            "1",
+            "Link Down ( xe-0/0/17 )",
+            "0001",
+            "",
+            "",
+            "",
+            "CMTS-DAAS",
+            "",
+            "1920263689",
+            "1920263689"
+          ]
+        }
+      ],
+      "alarmas_detalle": [
+        {
+          "dn": "172.24.254.26",
+          "node": "ANTI-COPAC-M-01-DAAS",
+          "creada": "14/04/2026 18:19:55",
+          "insertada": "14/04/2026 18:24:46",
+          "estado": "1",
+          "nomb_alarma": "Link Down ( xe-0/0/17 )",
+          "num_alarma": "0001",
+          "fecha_hora_clareo": "",
+          "tecnologia": "",
+          "cancelado_por": "",
+          "relacionado_por": "CMTS-DAAS",
+          "sector_eb": "",
+          "serverserial": "1920263689",
+          "consec_nbr": "1920263689",
+          "color": "rgb(255, 0, 0)",
+          "activa": true,
+          "raw": [
+            "172.24.254.26",
+            "ANTI-COPAC-M-01-DAAS",
+            "14/04/2026 18:19:55",
+            "14/04/2026 18:24:46",
+            "1",
+            "Link Down ( xe-0/0/17 )",
+            "0001",
+            "",
+            "",
+            "",
+            "CMTS-DAAS",
+            "",
+            "1920263689",
+            "1920263689"
+          ]
+        }
+      ],
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000084622"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "TAS000000084622",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "Tarea",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 31.84,
+      "worker": 3,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGCQ4GPJ3UGLAT381O4T381O4UP9G&rand=0.5441584676860215 | TAB_MODO=TASKS_TAB_CAPTURED_V556 | PAGINAS=1 | TOTAL_REL=1",
+      "error": "",
+      "ticket_consultado": "TAS000000084622",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000084622",
+      "titulo_tarea": "Prueba TAS a BO HFC FLUJO RPHI Equipo: ANTI-COPAC-M-01-DAAS SDS: NULL Alarma: Link Down ( xe-0/0/17 )",
+      "estado_tarea": "Staged"
+    },
+    {
+      "inc": "INC000003053269",
+      "titulo": "FOHFC:T2: PRUEBA",
+      "estado": "OK",
+      "estado_incidente": "Cancelled",
+      "fecha_creacion_incidente": "04/04/2026 15:32:52",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005068402"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000070055"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005068402",
+          "tipo": "WO",
+          "tipo_relacion": "Created",
+          "titulo": "FOHFC:T2: PRUEBA",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-FRONT-OFFICE-HFC",
+          "crear_fecha": "04/04/2026 15:42:49",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000070055",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 28.76,
+      "worker": 4,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=IDGD3Z54FZXOLAT2ZLAPT2ZLAPBOC0&rand=0.35655132302685844 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=2",
+      "error": "",
+      "ticket_consultado": "TAS000000070055",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000070055",
+      "titulo_tarea": "FOHFC:T2: PRUEBA",
+      "estado_tarea": "Staged"
+    },
+    {
+      "inc": "INC000002993002",
+      "titulo": "PRUEBA CREACION INC NOC HFC",
+      "estado": "OK",
+      "estado_incidente": "Cancelled",
+      "fecha_creacion_incidente": "03/04/2026 1:42:09",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005067320"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000069960"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005067320",
+          "tipo": "WO",
+          "tipo_relacion": "Created",
+          "titulo": "PRUEBA CREACION INC NOC HFC",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-BO-BACKOFFICE-ALAMBRICO-HFC",
+          "crear_fecha": "03/04/2026 2:05:37",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000069960",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Nuevo",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_relacionados"
+        }
+      ],
+      "duracion_seg": 28.78,
+      "worker": 5,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=IDGD3Z54FZXOLAT2WNXZT2WNXZCZJE&rand=0.09774722091166055 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=2",
+      "error": "",
+      "ticket_consultado": "TAS000000069960",
+      "tipo_consulta": "TAS",
+      "tas_origen": "TAS000000069960",
+      "titulo_tarea": "PRUEBA CREACION INC NOC HFC",
+      "estado_tarea": "Staged"
+    }
+  ],
+  "error": ""
+}

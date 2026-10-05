@@ -1,0 +1,325 @@
+{
+  "job_id": "05724d3108f248e9",
+  "estado": "COMPLETADO",
+  "total": 22,
+  "procesados": 22,
+  "workers": 7,
+  "creado": "2026-09-02T18:20:46",
+  "iniciado": "2026-09-02T18:20:46",
+  "finalizado": "2026-09-02T18:25:36",
+  "duracion_seg": 289.68,
+  "resultados": [
+    {
+      "inc": "INC000006508878",
+      "titulo": "Flujo FTTH: TRONCAL PARCIALMENTE CAIDA ZAC-BUC.PARQCARACOLI-H2-C600,RACK=1,SHELF=1,SLOT=17,PORT=11 ID Alarm: optica_parcial",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623741"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 13.48,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGACX33I7HHNATKRIZYTKRIZY2A3M&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006505569",
+      "titulo": "CGE_ATE_R4_RN_SIC _CTA.27631356_UMM_MTO_FTTH_SIN SEÑAL_BOGOTA NODO DTBFK4",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005625061"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 16.9,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=IDGJYCYBI5QLCATKQYY6TKQYY642IS&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006503637",
+      "titulo": "Caida Flujo FTTH: ZAC-STA.SANTAMARTA-CP1,RACK=1,SHELF=1,SLOT=3,PORT=16 ID Alarm: 722605 Alarma: [GPON Alarm]OLT PON LOS(Loss of signal)",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005622596"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 18.55,
+      "worker": 3,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGACX33I7HHNATKQ9X5TKQ9X5Q4QS&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006465335",
+      "titulo": "GES STA FTTH Sin señal triple play PUERTO TARJETA 1 1 3 GFGH 15 ZAC STA SANTAMARTA CP1",
+      "estado": "RELACIONADOS_NO_CONFIRMADO",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 17.23,
+      "worker": 4,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGIUCD1GGA57ATKLQZDTKLQZDNGAV&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006501759",
+      "titulo": "\"FOCABLE RIESGO BAJO CAIDA DE TRONCAL(ES): MR_T1: FTTH /ZAC-STA.SAN_LUIS-M2-C600",
+      "estado": "OK",
+      "total_wo": 2,
+      "wo_relacionadas": [
+        "WO0000005622754",
+        "WO0000005623827"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 21.7,
+      "worker": 5,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=IDGD3920FUCK1ATKQKLYTKQKLYB1BS&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006502499",
+      "titulo": "Caida Flujo FTTH: ZAC-STA.SAN_LUIS-M2-C600,RACK=1,SHELF=1,SLOT=7,PORT=15 ID Alarm: 722605 Alarma: [GPON Alarm]OLT PON LOS(Loss of signal)",
+      "estado": "OK",
+      "total_wo": 2,
+      "wo_relacionadas": [
+        "WO0000005621976",
+        "WO0000005621983"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 22.87,
+      "worker": 6,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKPXT6TKPXT676LL&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006507961",
+      "titulo": "Flujo FTTH: TRONCAL PARCIALMENTE CAIDA ZAC-BAR.SENA-CP1,RACK=1,SHELF=1,SLOT=8,PORT=5 ID Alarm: optica_parcial",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623713"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 22.1,
+      "worker": 7,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGDHKV5ASYY8ATKRGL1TKRGL1HJWT&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006506781",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 57.08,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006506781:DETECTADO="
+    },
+    {
+      "inc": "INC000006507529",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 70.53,
+      "worker": 2,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006507529"
+    },
+    {
+      "inc": "INC000006506394",
+      "titulo": "Flujo FTTH: TRONCAL PARCIALMENTE CAIDA ZAC-MED.COHAN-M1-C600,RACK=1,SHELF=1,SLOT=9,PORT=10 ID Alarm: optica_parcial",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005622995"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 91.29,
+      "worker": 4,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGCLP6IAQIHTATKQX64TKQX64GE5V&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006507796",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 99.71,
+      "worker": 3,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006507796:DETECTADO="
+    },
+    {
+      "inc": "INC000006505014",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 107.95,
+      "worker": 5,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006505014:DETECTADO="
+    },
+    {
+      "inc": "INC000006495590",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 126.69,
+      "worker": 6,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006495590"
+    },
+    {
+      "inc": "INC000006508570",
+      "titulo": "Caida Flujo FTTH: ZAC-VAD.AEROPUERTOVALLEDUPAR-CP1,RACK=1,SHELF=1,SLOT=5,PORT=1 ID Alarm: 400136 Alarma: Physical Port Link Down",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 2,
+      "ta_relacionadas": [
+        "TAS000000239243",
+        "TAS000000263423"
+      ],
+      "duracion_seg": 136.13,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGCLP6IAQIHTATKRJ8HTKRJ8H33SL&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006498582",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 193.13,
+      "worker": 7,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006498582:DETECTADO="
+    },
+    {
+      "inc": "INC000006507926",
+      "titulo": "Caida Flujo FTTH: ZAC-ANT.CHIGORODO3-B1-C600,RACK=1,SHELF=1,SLOT=11,PORT=1 ID Alarm: 400136 Alarma: Physical Port Link Down",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623701"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 110.89,
+      "worker": 3,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGDHKV5ASYY8ATKRFJ5TKRFJ5GDZR&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006490174",
+      "titulo": "(VIP) No gestionables - FOCABLE - FTTH - OTROS / SEPTIEMBRE",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000259438"
+      ],
+      "duracion_seg": 96.52,
+      "worker": 5,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=IDGD3920FUCK1ATKO5I7TKO5I7L3GE&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006505787",
+      "titulo": "Caida Flujo FTTH: ZAC-BAR.SENA-CP1,RACK=1,SHELF=1,SLOT=10,PORT=4 ID ALARM: 50901 Alarma: Smartgroup Interface Link Negotiation Failed",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000261715"
+      ],
+      "duracion_seg": 79.27,
+      "worker": 6,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGJX0ZHJPQJ9ATKQX7HTKQX7HTQ88&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006492531",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 173.41,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006492531:DETECTADO="
+    },
+    {
+      "inc": "INC000006504085",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 134.73,
+      "worker": 4,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006504085:DETECTADO="
+    },
+    {
+      "inc": "INC000006503353",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 35.6,
+      "worker": 2,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006503353:DETECTADO="
+    },
+    {
+      "inc": "INC000006501988",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 55.56,
+      "worker": 7,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006501988"
+    }
+  ],
+  "error": ""
+}

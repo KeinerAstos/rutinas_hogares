@@ -1,0 +1,143 @@
+{
+  "job_id": "c78b6185c67e4d60",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-03T11:45:48",
+  "iniciado": "2026-09-03T11:45:48",
+  "finalizado": "2026-09-03T11:46:12",
+  "duracion_seg": 23.61,
+  "resultados": [
+    {
+      "inc": "INC000006509203",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node BMD SDS: SDS-PARAISO ROMANO Aliado: SICTE LTDA Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623740"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000263449"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "INC000006509150",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006509203",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 16:25:21",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006508386",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006509203",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 16:26:55",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006509532",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006509203",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 16:28:40",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006509156",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006509203",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 16:28:59",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006509162",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006509203",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 16:37:40",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006509905",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006509203",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 16:48:52",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006509749",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006509203",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 17:05:59",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006509746",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000006509203",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "02/09/2026 17:02:58",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005623740",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node BMD SDS: SDS-PARAISO ROMANO Aliado: SICTE LTDA Gestor: Kou-Aw",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "02/09/2026 15:58:53",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000263449",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 18.11,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGHW6KYG4OZ9ATKRIXTTKRIXTCANZ&rand=0.3926808120577433 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=10",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

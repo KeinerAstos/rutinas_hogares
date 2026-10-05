@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005828848",
+  "worker_id": 2,
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006811399",
+      "tipo_relacion": "Created",
+      "titulo": "Caida Flujo FTTH: CAIDA TOTAL TRONCAL GPON ZAC-CUN.ATP_MOSQUERA-N2-C600,RACK=1,SHELF=1,SLOT=1,PORT=15 ID Alarm: 722605 Alarma: [GPON Alarm]OLT PON LOS(Loss of signal)",
+      "estado": "In Progress",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-FRONT-OFFICE-HFC",
+      "crear_fecha": "22/09/2026 14:56:14",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006811399",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "validacion_adjuntos_wo_confirmada": true,
+  "validacion_adjuntos_inc_confirmada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 6,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_SIN_DOCUMENTOS_ADJUNTOS",
+  "duracion_seg": 102.65
+}

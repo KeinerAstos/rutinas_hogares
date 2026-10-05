@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005676429",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006600480",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R2_CIN_CTA.14989335_LLS.8650335_UMM_MTO_ FTTH_MEDELLIN_SIN POTENCIA_TRONCAL _XQ126J",
+      "estado": "Resolved",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGENOROCCIDENTE",
+      "crear_fecha": "10/09/2026 11:49:57",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006600480",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 5,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "AVISOS EXTERNOS FTTH..xls",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005676429\\INC000006600480\\AVISOS EXTERNOS FTTH..xls",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 48.98
+}

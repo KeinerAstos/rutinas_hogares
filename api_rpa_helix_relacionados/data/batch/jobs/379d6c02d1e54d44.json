@@ -1,0 +1,409 @@
+{
+  "job_id": "379d6c02d1e54d44",
+  "estado": "COMPLETADO",
+  "total": 9,
+  "procesados": 9,
+  "workers": 7,
+  "creado": "2026-09-03T15:27:24",
+  "iniciado": "2026-09-03T15:27:24",
+  "finalizado": "2026-09-03T15:30:17",
+  "duracion_seg": 173.05,
+  "resultados": [
+    {
+      "inc": "INC000006513960",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node CF3 SDS: SDS-ESTADIO CORP Aliado: CI_NCO LTDA Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005628786"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "INC000006514579",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006513960",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 10:18:34",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006514868",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006513960",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 10:20:22",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006513961",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "ALHT Nodo:CF3",
+          "estado": "Pending",
+          "usuario_asignado": "Brayan Carrillo",
+          "grupo_asignado": "COL-NOIT-STA-RED-EXTERNA",
+          "crear_fecha": "03/09/2026 10:17:34",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005628786",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node CF3 SDS: SDS-ESTADIO CORP Aliado: CI_NCO LTDA Gestor: Kou-Awa",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "03/09/2026 10:16:36",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 33.45,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGADUC3B7KD1ATKSNR4TKSNR4QFX1&rand=0.11777854123095999 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=4",
+      "error": ""
+    },
+    {
+      "inc": "INC000006515094",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node RMO SDS: SDS-CALI ORIENTE Aliado: DICO TELECOMUNICACIONES S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005628517"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005628517",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node RMO SDS: SDS-CALI ORIENTE Aliado: DICO TELECOMUNICACIONES S.A",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "03/09/2026 10:23:11",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 54.3,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGJX0ZHJPQJ9ATKSOBWTKSOBWOYHV&rand=0.5030669605817145 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006514679",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node EPA3F SDS: SDS-GIRARDOT Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005628145"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "INC000006514588",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000006514679",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 10:24:47",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006515411",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006514679",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 10:32:43",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006515799",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000006514679",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 11:17:57",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006517108",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000006514679",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 13:01:46",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006518336",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006514679",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 14:40:00",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006519805",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000006514679",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 15:21:53",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005628145",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node EPA3F SDS: SDS-GIRARDOT Aliado: Gestor: Kou-Aware1",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "03/09/2026 10:23:03",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 68.32,
+      "worker": 4,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGDHKV5ASYY8ATKSOCBTKSOCBZ6N8&rand=0.5487111751329726 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=7",
+      "error": ""
+    },
+    {
+      "inc": "INC000006513966",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node 49A22D SDS: SDS-MODELO SUR Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005628614"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005628614",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node 49A22D SDS: SDS-MODELO SUR Aliado: Gestor: Kou-Aware1",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "03/09/2026 10:28:39",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 77.72,
+      "worker": 3,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGADUC3B7KD1ATKSO1ITKSO1IQ1MT&rand=0.037697259337516 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006514878",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node RMO1 SDS: SDS-CALI INGENIO Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005628146"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "INC000006515126",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000006514878",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 11:19:21",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005628146",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node RMO1 SDS: SDS-CALI INGENIO Aliado: Gestor: Kou-Aware1",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "03/09/2026 10:28:31",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 88.21,
+      "worker": 5,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGCLP6IAQIHTATKSO12TKSO12Z0RC&rand=0.8474286077598634 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=2",
+      "error": ""
+    },
+    {
+      "inc": "INC000006513989",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node EUE SDS: SDS-GIRARDOT Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005629859"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "INC000006515607",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000006513989",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 11:15:05",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006515832",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000006513989",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 11:44:15",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006517561",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006513989",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "03/09/2026 14:07:58",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005629859",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node EUE SDS: SDS-GIRARDOT Aliado: Gestor: Kou-Aware1",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "03/09/2026 10:58:43",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 102.22,
+      "worker": 6,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGADUC3B7KD1ATKSPPRTKSPPRRF61&rand=0.8966302883272042 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=4",
+      "error": ""
+    },
+    {
+      "inc": "INC000006515555",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node 3214M SDS: SDS-GARCES NAVAS Aliado: SICTE LTDA Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005628621"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005628621",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node 3214M SDS: SDS-GARCES NAVAS Aliado: SICTE LTDA Gestor: Kou-Aw",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "03/09/2026 11:14:26",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 115.29,
+      "worker": 7,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGDHKV5ASYY8ATKSQ59TKSQ59AYU2&rand=0.4699350859323611 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006515556",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node AYR SDS: SDS-ZIPAQUIRA Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005628796"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005628796",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node AYR SDS: SDS-ZIPAQUIRA Aliado: Gestor: Kou-Aware1",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "03/09/2026 11:14:19",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 114.91,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGDHKV5ASYY8ATKSQ5MTKSQ5MAYWX&rand=0.7102648092102138 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006515132",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node ROR2F SDS: SDS-VILLAVICENCIO RESID Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005629867"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005629867",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node ROR2F SDS: SDS-VILLAVICENCIO RESID Aliado: Gestor: Kou-Aware1",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "03/09/2026 11:24:11",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 109.64,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGJX0ZHJPQJ9ATKSQVZTKSQVZPWQV&rand=0.8282149049573203 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=1",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

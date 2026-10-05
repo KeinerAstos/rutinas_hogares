@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005733810",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006691782",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R4_RN_DIC_CTA.60307203_UMM_IN_FTTH_SIN SEÑAL_MOSQUERA NODO XM1323",
+      "estado": "In Progress",
+      "usuario_asignado": "Javier BARRIOS",
+      "grupo_asignado": "COL-NOIT-CGECENTRO",
+      "crear_fecha": "17/09/2026 10:18:39",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006691782",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "1.pdf",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005733810\\INC000006691782\\1.pdf",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 23.6
+}

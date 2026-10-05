@@ -1,0 +1,170 @@
+{
+  "job_id": "66b908ff9f144b17",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-08T16:59:53",
+  "iniciado": "2026-09-08T16:59:53",
+  "finalizado": "2026-09-08T17:00:33",
+  "duracion_seg": 39.4,
+  "resultados": [
+    {
+      "inc": "INC000006410160",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node FID SDS: SDS-IBAGUE RESID Aliado: TELCOS INGENIERIA S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "estado_incidente": "Closed",
+      "fecha_creacion_incidente": "26/08/2026 5:01:22",
+      "alarmas": {
+        "consultado": true,
+        "total": 1,
+        "activas": 0,
+        "canceladas": 1,
+        "capturadas": 1,
+        "captura_completa": true,
+        "detalle": [
+          {
+            "dn": "FID",
+            "node": "FID",
+            "creada": "26/08/2026 4:58:28",
+            "insertada": "26/08/2026 5:01:25",
+            "estado": "0",
+            "nomb_alarma": "optico Gestor: poller Marcacion: NULL Slot: Rx: N/A Error: Creado por poller de cm a las 2026-08-26 04:58:28",
+            "num_alarma": "optico",
+            "fecha_hora_clareo": "26/08/2026 7:15:03",
+            "tecnologia": "",
+            "cancelado_por": "Auto_Netcool",
+            "relacionado_por": "Kou-Aware1",
+            "sector_eb": "",
+            "serverserial": "2031520535",
+            "consec_nbr": "2031520535",
+            "color": "rgb(0, 0, 255)",
+            "activa": false,
+            "raw": [
+              "FID",
+              "FID",
+              "26/08/2026 4:58:28",
+              "26/08/2026 5:01:25",
+              "0",
+              "optico Gestor: poller Marcacion: NULL Slot: Rx: N/A Error: Creado por poller de cm a las 2026-08-26 04:58:28",
+              "optico",
+              "26/08/2026 7:15:03",
+              "",
+              "Auto_Netcool",
+              "Kou-Aware1",
+              "",
+              "2031520535",
+              "2031520535"
+            ]
+          }
+        ],
+        "activas_detalle": [],
+        "source": "INT_NETCOOL_ALARMAS_V557",
+        "error": ""
+      },
+      "alarmas_total": 1,
+      "alarmas_activas_total": 0,
+      "alarmas_canceladas_total": 1,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [
+        {
+          "dn": "FID",
+          "node": "FID",
+          "creada": "26/08/2026 4:58:28",
+          "insertada": "26/08/2026 5:01:25",
+          "estado": "0",
+          "nomb_alarma": "optico Gestor: poller Marcacion: NULL Slot: Rx: N/A Error: Creado por poller de cm a las 2026-08-26 04:58:28",
+          "num_alarma": "optico",
+          "fecha_hora_clareo": "26/08/2026 7:15:03",
+          "tecnologia": "",
+          "cancelado_por": "Auto_Netcool",
+          "relacionado_por": "Kou-Aware1",
+          "sector_eb": "",
+          "serverserial": "2031520535",
+          "consec_nbr": "2031520535",
+          "color": "rgb(0, 0, 255)",
+          "activa": false,
+          "raw": [
+            "FID",
+            "FID",
+            "26/08/2026 4:58:28",
+            "26/08/2026 5:01:25",
+            "0",
+            "optico Gestor: poller Marcacion: NULL Slot: Rx: N/A Error: Creado por poller de cm a las 2026-08-26 04:58:28",
+            "optico",
+            "26/08/2026 7:15:03",
+            "",
+            "Auto_Netcool",
+            "Kou-Aware1",
+            "",
+            "2031520535",
+            "2031520535"
+          ]
+        }
+      ],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005568392"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000229449"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "INC000006409959",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006410160",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "26/08/2026 6:44:53",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "INC000006410556",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000006410160",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "26/08/2026 6:59:19",
+          "tipo_ticket": "Requerimiento"
+        },
+        {
+          "id": "WO0000005568392",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node FID SDS: SDS-IBAGUE RESID Aliado: TELCOS INGENIERIA S.A. Gest",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "26/08/2026 5:01:33",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000229449",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_tasks"
+        }
+      ],
+      "duracion_seg": 28.97,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGGTB7VEBLX0ATK35U0TK35U0ZJXB&rand=0.1275232214848171 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=4",
+      "error": "",
+      "ticket_consultado": "INC000006410160",
+      "tipo_consulta": "INC",
+      "tas_origen": ""
+    }
+  ],
+  "error": ""
+}

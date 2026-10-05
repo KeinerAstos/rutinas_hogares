@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005542081",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006334414",
+      "tipo_relacion": "Created by",
+      "titulo": "FOHFC: MR_T2: Sin Retorno / Nodo AMS1M",
+      "estado": "Closed",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-FRONT-OFFICE-HFC",
+      "crear_fecha": "19/08/2026 14:46:59",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006334414",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 30,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_SIN_DOCUMENTOS_ADJUNTOS",
+  "duracion_seg": 38.96
+}

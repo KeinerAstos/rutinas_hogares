@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005754900",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006714433",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R2_DOM _CTA.38563325_LLS.478586371_UMM_MTO FTTH_MEDELLIN_SIN POTENCIA_TRONCAL XQ116L",
+      "estado": "In Progress",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGENOROCCIDENTE",
+      "crear_fecha": "18/09/2026 15:13:07",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006714433",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 3,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 3,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "descarga (38).png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005754900\\INC000006714433\\descarga (38).png",
+      "error": ""
+    },
+    {
+      "indice": 2,
+      "nombre": "descarga (40).png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005754900\\INC000006714433\\descarga (40).png",
+      "error": ""
+    },
+    {
+      "indice": 3,
+      "nombre": "descarga (39).png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005754900\\INC000006714433\\descarga (39).png",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 37.4
+}

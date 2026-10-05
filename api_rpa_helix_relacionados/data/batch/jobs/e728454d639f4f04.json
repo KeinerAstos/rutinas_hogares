@@ -1,0 +1,28 @@
+{
+  "job_id": "e728454d639f4f04",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-03T10:44:34",
+  "iniciado": "2026-09-03T10:44:34",
+  "finalizado": "2026-09-03T10:45:13",
+  "duracion_seg": 38.61,
+  "resultados": [
+    {
+      "inc": "INC000006387408",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node GC21 SDS: SDS-PEREIRA CENTRO Aliado: Gestor: Kou-Aware1",
+      "estado": "RELACIONADOS_NO_CONFIRMADO",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [],
+      "duracion_seg": 32.22,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGDCL9PHT11LATK0A00TK0A00DLG4&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005455965",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000005924694",
+      "tipo_relacion": "Created by",
+      "titulo": "FOHFC: MR_T1: Cm Desenganchados Nodo: VARIOS",
+      "estado": "Closed",
+      "usuario_asignado": "Gina Amazo",
+      "grupo_asignado": "COL-NOIT-BACKOFFICE-BOLSA-INC",
+      "crear_fecha": "30/07/2026 9:33:04",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000005924694",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 18,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_SIN_DOCUMENTOS_ADJUNTOS",
+  "duracion_seg": 31.86
+}

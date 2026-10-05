@@ -1,0 +1,1317 @@
+﻿{
+    "ok":  true,
+    "job_id":  "76b1b8c582ce43bd",
+    "area":  "front",
+    "estado":  "PROCESANDO",
+    "total":  42,
+    "procesados":  25,
+    "pendientes":  17,
+    "workers":  7,
+    "creado":  "2026-09-23T14:10:49",
+    "iniciado":  "2026-09-23T14:10:49",
+    "finalizado":  "",
+    "duracion_seg":  0.0,
+    "resultados":  [
+                       {
+                           "inc":  "INC000006831769",
+                           "ticket_consultado":  "INC000006831769",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  488.37,
+                           "worker":  1,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006831769"
+                       },
+                       {
+                           "inc":  "INC000006832259",
+                           "ticket_consultado":  "INC000006832259",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  546.32,
+                           "worker":  2,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006832259"
+                       },
+                       {
+                           "inc":  "INC000006829949",
+                           "ticket_consultado":  "INC000006829949",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  605.17,
+                           "worker":  3,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006829949"
+                       },
+                       {
+                           "inc":  "INC000006832071",
+                           "ticket_consultado":  "INC000006832071",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  663.93,
+                           "worker":  4,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006832071"
+                       },
+                       {
+                           "inc":  "INC000006832083",
+                           "ticket_consultado":  "INC000006832083",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  722.21,
+                           "worker":  5,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006832083"
+                       },
+                       {
+                           "inc":  "INC000006829243",
+                           "ticket_consultado":  "INC000006829243",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  782.2,
+                           "worker":  6,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006829243"
+                       },
+                       {
+                           "inc":  "INC000006830414",
+                           "ticket_consultado":  "INC000006830414",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  841.3,
+                           "worker":  7,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006830414"
+                       },
+                       {
+                           "inc":  "INC000006828516",
+                           "ticket_consultado":  "INC000006828516",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  851.9,
+                           "worker":  1,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006828516"
+                       },
+                       {
+                           "inc":  "INC000006830859",
+                           "ticket_consultado":  "INC000006830859",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.16,
+                           "worker":  2,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006830859"
+                       },
+                       {
+                           "inc":  "INC000006830638",
+                           "ticket_consultado":  "INC000006830638",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.17,
+                           "worker":  3,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006830638"
+                       },
+                       {
+                           "inc":  "INC000006829877",
+                           "ticket_consultado":  "INC000006829877",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.1,
+                           "worker":  4,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006829877"
+                       },
+                       {
+                           "inc":  "INC000006829741",
+                           "ticket_consultado":  "INC000006829741",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.31,
+                           "worker":  5,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006829741"
+                       },
+                       {
+                           "inc":  "INC000006831044",
+                           "ticket_consultado":  "INC000006831044",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.36,
+                           "worker":  6,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006831044"
+                       },
+                       {
+                           "inc":  "INC000006805168",
+                           "ticket_consultado":  "INC000006805168",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.33,
+                           "worker":  7,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006805168"
+                       },
+                       {
+                           "inc":  "INC000006829230",
+                           "ticket_consultado":  "INC000006829230",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.51,
+                           "worker":  1,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006829230"
+                       },
+                       {
+                           "inc":  "INC000006828687",
+                           "ticket_consultado":  "INC000006828687",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.33,
+                           "worker":  2,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006828687"
+                       },
+                       {
+                           "inc":  "INC000006829417",
+                           "ticket_consultado":  "INC000006829417",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.32,
+                           "worker":  3,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006829417"
+                       },
+                       {
+                           "inc":  "INC000006829340",
+                           "ticket_consultado":  "INC000006829340",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.36,
+                           "worker":  4,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006829340"
+                       },
+                       {
+                           "inc":  "INC000006829921",
+                           "ticket_consultado":  "INC000006829921",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.07,
+                           "worker":  5,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006829921"
+                       },
+                       {
+                           "inc":  "INC000006828463",
+                           "ticket_consultado":  "INC000006828463",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.05,
+                           "worker":  6,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006828463"
+                       },
+                       {
+                           "inc":  "INC000006829099",
+                           "ticket_consultado":  "INC000006829099",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.01,
+                           "worker":  7,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006829099"
+                       },
+                       {
+                           "inc":  "INC000006828711",
+                           "ticket_consultado":  "INC000006828711",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.43,
+                           "worker":  1,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006828711"
+                       },
+                       {
+                           "inc":  "INC000006828543",
+                           "ticket_consultado":  "INC000006828543",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.36,
+                           "worker":  2,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006828543"
+                       },
+                       {
+                           "inc":  "INC000006827686",
+                           "ticket_consultado":  "INC000006827686",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.39,
+                           "worker":  3,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006827686"
+                       },
+                       {
+                           "inc":  "INC000006827234",
+                           "ticket_consultado":  "INC000006827234",
+                           "tipo_consulta":  "INC",
+                           "tas_origen":  "",
+                           "titulo":  "",
+                           "titulo_tarea":  "",
+                           "estado_tarea":  "",
+                           "estado":  "ERROR",
+                           "estado_incidente":  "",
+                           "fecha_creacion_incidente":  "",
+                           "alarmas":  {
+                                           "consultado":  false,
+                                           "total":  null,
+                                           "activas":  null,
+                                           "canceladas":  null,
+                                           "capturadas":  0,
+                                           "captura_completa":  false,
+                                           "detalle":  [
+
+                                                       ],
+                                           "activas_detalle":  [
+
+                                                               ],
+                                           "source":  "",
+                                           "error":  "NO_CONSULTADO_POR_ERROR_TICKET"
+                                       },
+                           "alarmas_total":  null,
+                           "alarmas_activas_total":  null,
+                           "alarmas_canceladas_total":  null,
+                           "alarmas_activas_detalle":  [
+
+                                                       ],
+                           "alarmas_detalle":  [
+
+                                               ],
+                           "total_wo":  0,
+                           "wo_relacionadas":  [
+
+                                               ],
+                           "total_ta":  0,
+                           "ta_relacionadas":  [
+
+                                               ],
+                           "relacionados_detalle":  [
+
+                                                    ],
+                           "duracion_seg":  852.75,
+                           "worker":  4,
+                           "frame_url":  "",
+                           "error":  "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006827234"
+                       }
+                   ],
+    "error":  ""
+}

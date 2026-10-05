@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005784677",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006758335",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_GNP_R5_TAB_CTA.59995281_LLS.8769677_UMM_MTO_GIN_SENAL DEFICIENTE NODO 2RN",
+      "estado": "In Progress",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGEORIENTE",
+      "crear_fecha": "21/09/2026 12:44:38",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006758335",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 3,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_SIN_DOCUMENTOS_ADJUNTOS",
+  "duracion_seg": 29.09
+}

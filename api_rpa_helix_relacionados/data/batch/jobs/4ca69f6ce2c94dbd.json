@@ -1,0 +1,35 @@
+{
+  "job_id": "4ca69f6ce2c94dbd",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-02T14:47:23",
+  "iniciado": "2026-09-02T14:47:23",
+  "finalizado": "2026-09-02T14:47:41",
+  "duracion_seg": 17.69,
+  "resultados": [
+    {
+      "inc": "INC000005748908",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node CAR12D SDS: SDS-RESTREPO Aliado: CICSA COLOMBIA S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 4,
+      "ta_relacionadas": [
+        "TAS000000154910",
+        "TAS000000154911",
+        "TAS000000154912",
+        "TAS000000155118"
+      ],
+      "duracion_seg": 11.49,
+      "worker": 1,
+      "frame_url": "https://miasistencia360-smartit.claro.com.co/smartit/app/#/search/INC000005748908",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "_incidentes": [
+    "INC000005748908"
+  ]
+}

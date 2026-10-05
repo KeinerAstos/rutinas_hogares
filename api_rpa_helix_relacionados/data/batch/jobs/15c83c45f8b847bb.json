@@ -1,0 +1,104 @@
+{
+  "job_id": "15c83c45f8b847bb",
+  "estado": "COMPLETADO",
+  "total": 6,
+  "procesados": 6,
+  "workers": 6,
+  "creado": "2026-09-02T15:27:29",
+  "iniciado": "2026-09-02T15:27:29",
+  "finalizado": "2026-09-02T15:29:48",
+  "duracion_seg": 139.28,
+  "resultados": [
+    {
+      "inc": "INC000005683138",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 37.49,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000005683138"
+    },
+    {
+      "inc": "INC000005748908",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 64.77,
+      "worker": 2,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000005748908"
+    },
+    {
+      "inc": "INC000005761532",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node EHJ SDS: SDS-ESPACIO SUR Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000177967"
+      ],
+      "duracion_seg": 23.26,
+      "worker": 3,
+      "frame_url": "https://miasistencia360-smartit.claro.com.co/smartit/app/#/search/INC000005761532",
+      "error": ""
+    },
+    {
+      "inc": "INC000005764255",
+      "titulo": "Flujo FTTH: TRONCAL PARCIALMENTE CAIDA HAC-BOG.FONTIBONH-CP1,Frame=0 Slot=1 Subslot=65535 Port=9 ID Alarm: optica_parcial",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 4,
+      "ta_relacionadas": [
+        "TAS000000151871",
+        "TAS000000152387",
+        "TAS000000152388",
+        "TAS000000152389"
+      ],
+      "duracion_seg": 19.59,
+      "worker": 4,
+      "frame_url": "https://miasistencia360-smartit.claro.com.co/smartit/app/#/search/INC000005764255",
+      "error": ""
+    },
+    {
+      "inc": "INC000005764375",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node UCV SDS: SDS-JAMUNDI Aliado: DICO TELECOMUNICACIONES S.A. Ges",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 2,
+      "ta_relacionadas": [
+        "TAS000000158650",
+        "TAS000000174351"
+      ],
+      "duracion_seg": 15.89,
+      "worker": 5,
+      "frame_url": "https://miasistencia360-smartit.claro.com.co/smartit/app/#/search/INC000005764375",
+      "error": ""
+    },
+    {
+      "inc": "INC000005766296",
+      "titulo": "Problema de __FALLA MASIVA - Nodo 1-1-5-HFTH-16_ZAC-CUN.AUTODROMO-M1-C600. Se ha generado un incidente por medio de t&d ya que se evidencia un fallo en la zona, por favor area NOC validar el diagnostico para determinar si debe enviarse una ot a campo",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000119173"
+      ],
+      "duracion_seg": 15.32,
+      "worker": 6,
+      "frame_url": "https://miasistencia360-smartit.claro.com.co/smartit/app/#/search/INC000005766296",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

@@ -1,0 +1,12 @@
+[
+  {"nombre": "Carlos_Mario_Meta", "vendor": "ZTE", "olt": "ZAC-MET.VILL-H1-C600", "ip": "172.30.170.118", "serial": "ZTEGCE85BAD6"},
+  {"nombre": "Carlos_Mario_Bogota", "vendor": "ZTE", "olt": "ZAC-BOG.PRADO_CCM-M1-C600", "ip": "172.30.172.150", "serial": "ZTEGCE8D1814"},
+  {"nombre": "Rodrigo_Guzmao", "vendor": "ZTE", "olt": "ZAC-BOG.ARRAYANES-B1-C600", "ip": "172.30.172.198", "serial": "ZTEGC4323608"},
+  {"nombre": "Carlos_Quintero", "vendor": "ZTE", "olt": "ZAC-BOG.PRADO_CCM-M1-C600", "ip": "172.30.172.150", "serial": "FHTTC0F01D46"},
+  {"nombre": "German_Bustos", "vendor": "ZTE", "olt": "ZAC-CUN.LA_CALERA-CP1", "ip": "172.30.15.145", "serial": "ZTEGCF5DCAE1"},
+  {"nombre": "NOC_CABLE", "vendor": "ZTE", "olt": "ZAC-BOG.FONTIBON-H1-C600", "ip": "172.30.170.226", "serial": "ZTEGC89E6A58"},
+  {"nombre": "OSCAR_AVILA", "vendor": "ZTE", "olt": "ZAC-BOG.CASTELLANA-H1-C600", "ip": "172.30.169.190", "serial": "ZTEGDB1D35A6"},
+  {"nombre": "Iader_Maldonado", "vendor": "HUAWEI", "olt": "HAC-BOG.PCLARO-H1-MA5800", "ip": "172.30.171.98", "serial": "SKYWB809E57E"},
+  {"nombre": "Daniel_Dominguez", "vendor": "HUAWEI", "olt": "HAC-BOG.CABRERA-CP2", "ip": "172.30.171.246", "serial": "FHTTC0F01B54"},
+  {"nombre": "Javier_Vasquez", "vendor": "HUAWEI", "olt": "HAC-BOG.PCLARO-H1-MA5800", "ip": "172.30.171.98", "serial": "FHTTC0F010B4"}
+]

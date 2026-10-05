@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005456255",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000005925308",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_MIL_R1_INM BARRANQUILLA_CTA.44655648_UMM_MTO HFC DEGRADACION NODO 9VT",
+      "estado": "Closed",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGECOSTA",
+      "crear_fecha": "30/07/2026 9:54:25",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000005925308",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 30,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "9VT.pdf",
+      "origen": "INC_INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\Users\\NTTSERVER\\Desktop\\backend_hogares\\data\\helix_redes_neutras\\descargas\\WO0000005456255\\INC000005925308\\9VT.pdf",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 30.34
+}

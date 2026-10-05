@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005864834",
+  "worker_id": 2,
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006891236",
+      "tipo_relacion": "Created by",
+      "titulo": "GES_STA Problema de Disponibilidad - Nodo 1-1-1-HFTH-5_ZAC-BOG.ATP_SALITRE-N6-C600 Incidente T&D",
+      "estado": "In Progress",
+      "usuario_asignado": "Daniel Lopez",
+      "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+      "crear_fecha": "28/09/2026 16:13:58",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006891236",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "validacion_adjuntos_wo_confirmada": true,
+  "validacion_adjuntos_inc_confirmada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 7,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "Document (5).docx",
+      "origen": "INC_NOTA_ACTIVIDAD_PAGINA_1",
+      "registro_actividad": 2,
+      "descargado": true,
+      "ruta_local": "C:\\xampp\\htdocs\\CentralNOC\\modules\\Dashboard_Hogar\\backend\\data\\redes_neutras\\WO0000005864834\\INC000006891236\\Document (5).docx",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 101.94
+}

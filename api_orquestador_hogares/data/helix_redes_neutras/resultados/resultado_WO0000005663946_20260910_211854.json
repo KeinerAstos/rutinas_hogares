@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005663946",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006580341",
+      "tipo_relacion": "Created by",
+      "titulo": "GES_STA Problema de Disponibilidad - Nodo 1-1-9-GFGH-14_ZAC-BAR.BOSTON_HOG-CP1 Incidente T&D",
+      "estado": "Resolved",
+      "usuario_asignado": "Andres Pascagaza",
+      "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+      "crear_fecha": "08/09/2026 18:38:45",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006580341",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 30,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_SIN_DOCUMENTOS_ADJUNTOS",
+  "duracion_seg": 34.69
+}

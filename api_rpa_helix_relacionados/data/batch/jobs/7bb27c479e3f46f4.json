@@ -1,0 +1,42 @@
+{
+  "job_id": "7bb27c479e3f46f4",
+  "estado": "COMPLETADO",
+  "total": 2,
+  "procesados": 2,
+  "workers": 1,
+  "creado": "2026-09-02T16:59:33",
+  "iniciado": "2026-09-02T16:59:33",
+  "finalizado": "2026-09-02T17:00:22",
+  "duracion_seg": 48.82,
+  "resultados": [
+    {
+      "inc": "INC000006503810",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node C331 SDS: SDS-PALMIRA Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005627049"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 9.87,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGCLP6IAQIHTATKQM33TKQM33ZIN0&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006387408",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 30.43,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006387408"
+    }
+  ],
+  "error": ""
+}

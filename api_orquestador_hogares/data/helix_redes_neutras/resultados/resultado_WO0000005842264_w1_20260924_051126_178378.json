@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005842264",
+  "worker_id": 1,
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006830241",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_GNP_R4_TAB_CTA.53504672_UMM_MTO SIN RETORNO NODO NFE2F (SIERRA DE SANTAFE 2F_SPN)",
+      "estado": "Closed",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGECENTRO",
+      "crear_fecha": "23/09/2026 13:11:00",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006830241",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "validacion_adjuntos_wo_confirmada": true,
+  "validacion_adjuntos_inc_confirmada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 5,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_SIN_DOCUMENTOS_ADJUNTOS",
+  "duracion_seg": 93.55
+}

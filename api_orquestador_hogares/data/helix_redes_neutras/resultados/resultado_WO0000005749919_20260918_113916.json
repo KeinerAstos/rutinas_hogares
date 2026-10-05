@@ -1,0 +1,34 @@
+{
+  "ok": false,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005749919",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006710446",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R2_CIN_CTA.526257_LLS.8746319_UMM_MTO_FTTH_SAP_SIN POTENCIA_XV1201",
+      "estado": "In Progress",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGENOROCCIDENTE",
+      "crear_fecha": "18/09/2026 11:29:44",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006710446",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": false,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "No se cumplió la condición: detalle del incidente INC000006710446 dentro de 240000 ms.",
+  "codigo": "HELIX_PRUEBA_FALLIDA",
+  "duracion_seg": 267.66
+}

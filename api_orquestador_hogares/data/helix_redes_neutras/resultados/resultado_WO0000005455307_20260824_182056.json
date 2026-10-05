@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005455307",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000005925172",
+      "tipo_relacion": "Created",
+      "titulo": "Caida Flujo FTTH: ZAC-CUN.MESA-B1-C600,RACK=1,SHELF=1,SLOT=11,PORT=4 ID ALARM: 50901 Alarma: Smartgroup Interface Link Negotiation Failed",
+      "estado": "Closed",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-FRONT-OFFICE-HFC",
+      "crear_fecha": "30/07/2026 9:56:49",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000005925172",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 24,
+  "documentos_adjuntos_encontrados": false,
+  "cantidad_documentos_adjuntos": 0,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 0,
+  "requiere_seleccion": false,
+  "adjuntos": [],
+  "error": "",
+  "codigo": "HELIX_SIN_DOCUMENTOS_ADJUNTOS",
+  "duracion_seg": 32.41
+}

@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005455537",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000005922139",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_GNP_R5_TAB_CTA.56324881_LLS.475434978_UMM_PIE_GIR_SENAL DEFICIENTE NODO RU6",
+      "estado": "Closed",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGEORIENTE",
+      "crear_fecha": "30/07/2026 9:50:47",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000005922139",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 24,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "Libro3.xlsx",
+      "origen": "INC_INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\Users\\NTTSERVER\\Desktop\\backend_hogares\\data\\helix_redes_neutras\\descargas\\WO0000005455537\\INC000005922139\\Libro3.xlsx",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 28.8
+}

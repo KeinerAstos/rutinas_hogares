@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005637895",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006528092",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_GNP_R4_RN_TAB_CTA.54097042_UMM­_BW NAP SIN POTENCIA TRONCAL XC171H",
+      "estado": "In Progress",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGECENTRO",
+      "crear_fecha": "04/09/2026 9:06:26",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006528092",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": true,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 5,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 2,
+  "cantidad_adjuntos_wo": 1,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "EVIDENCIA 477234588.pdf",
+      "origen": "WO_WO_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005637895\\WO0000005637895\\EVIDENCIA 477234588.pdf",
+      "error": ""
+    },
+    {
+      "indice": 2,
+      "nombre": "EVIDENCIA 477234588.pdf",
+      "origen": "INC_INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005637895\\INC000006528092\\EVIDENCIA 477234588.pdf",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 44.53
+}

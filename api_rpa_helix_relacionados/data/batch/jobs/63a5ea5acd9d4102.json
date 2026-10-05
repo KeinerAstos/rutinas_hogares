@@ -1,0 +1,70 @@
+{
+  "job_id": "63a5ea5acd9d4102",
+  "estado": "COMPLETADO",
+  "total": 4,
+  "procesados": 4,
+  "workers": 1,
+  "creado": "2026-09-02T17:15:52",
+  "iniciado": "2026-09-02T17:15:52",
+  "finalizado": "2026-09-02T17:17:02",
+  "duracion_seg": 70.12,
+  "resultados": [
+    {
+      "inc": "INC000006509203",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node BMD SDS: SDS-PARAISO ROMANO Aliado: SICTE LTDA Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623740"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000263449"
+      ],
+      "duracion_seg": 10.71,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKRIXTTKRIXTCANZ&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006508404",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 2.47,
+      "worker": 1,
+      "frame_url": "",
+      "error": "UnicodeEncodeError: 'charmap' codec can't encode character '\\U0001f929' in position 6372: character maps to <undefined>"
+    },
+    {
+      "inc": "INC000006387408",
+      "titulo": "Servicio creado automaticamente por incidente N INC000006387408",
+      "estado": "RELACIONADOS_NO_CONFIRMADO",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 20.12,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGBSPYPGS24MATK5XZFTK5XZFKZMO&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006503810",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 31.37,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006503810:DETECTADO="
+    }
+  ],
+  "error": ""
+}

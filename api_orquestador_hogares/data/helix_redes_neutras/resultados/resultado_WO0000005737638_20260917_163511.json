@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005737638",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006696812",
+      "tipo_relacion": "Created by",
+      "titulo": "GES_STA Problema de __FALLA MASIVA - Nodo 1-1-8-HFTH-12_ZAC-ANT.ATP_ITAGUI-N2-C600.",
+      "estado": "In Progress",
+      "usuario_asignado": "Cristian Guerrero",
+      "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+      "crear_fecha": "17/09/2026 14:00:43",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006696812",
+  "tabla_adjuntos_encontrada": false,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": false,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 8,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "EVIDENCIA.docx",
+      "origen": "INC_NOTA_ACTIVIDAD_PAGINA_1",
+      "registro_actividad": 3,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005737638\\INC000006696812\\EVIDENCIA.docx",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 33.23
+}

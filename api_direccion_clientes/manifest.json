@@ -1,0 +1,277 @@
+﻿{
+    "schema":  "ATLAS_API_LOCAL_FULL_LAB_V1",
+    "source_root":  "C:\\Users\\46258390\\OneDrive - NTT DATA EMEAL\\Escritorio\\api_direccion_clientes",
+    "source_host":  "AT6POB9W6Z64",
+    "created_at":  "2026-09-22T17:07:46",
+    "env_included":  false,
+    "secrets_included":  false,
+    "runtime_junk_included":  false,
+    "file_count":  53,
+    "files":  [
+                  {
+                      "relative_path":  ".env.example",
+                      "bytes":  2440,
+                      "sha256":  "6C04E78E7E68389E6036AF30296A9AD0D12B2FCB07FFD246BD0C9DC9D115663D"
+                  },
+                  {
+                      "relative_path":  ".gitignore",
+                      "bytes":  63,
+                      "sha256":  "D0B693C7EA3F5F78F3DE786E755FCA76CE91046DE1BA7D2CC608285E1492409A"
+                  },
+                  {
+                      "relative_path":  "app\\__init__.py",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "relative_path":  "app\\config\\__init__.py",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "relative_path":  "app\\config\\endpoints_settings.py",
+                      "bytes":  502,
+                      "sha256":  "568ABC634497E911E04DB762C6F5828C9FCB07D2F3737FDB89E5A1FF7A081A56"
+                  },
+                  {
+                      "relative_path":  "app\\config\\ftth_settings.py",
+                      "bytes":  3043,
+                      "sha256":  "C5FCFBBCCF1FCAA8EE199FC09D8F8817BE664401277DF213B00FA07BA80E4ECA"
+                  },
+                  {
+                      "relative_path":  "app\\config\\hfc_endpoints_settings.py",
+                      "bytes":  3662,
+                      "sha256":  "753E8B74D894804C66323B6D4E78E5FE781F4753AC14F8B688C233BDA4E7FABE"
+                  },
+                  {
+                      "relative_path":  "app\\core\\__init__.py",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "relative_path":  "app\\core\\paths.py",
+                      "bytes":  2007,
+                      "sha256":  "BC7A80D2A77DBC1591C1748480887CDDCC22AEEA0A5884B2922E76E4D88B69B1"
+                  },
+                  {
+                      "relative_path":  "app\\infrastructure\\__init__.py",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "relative_path":  "app\\infrastructure\\ssh_jump.py",
+                      "bytes":  6737,
+                      "sha256":  "08E1099F4285B37C1C28685494AC8ABEB7B43DF5E251D4E70B9BC39FBF9C3D6D"
+                  },
+                  {
+                      "relative_path":  "app\\infrastructure\\telnet_jump.py",
+                      "bytes":  8863,
+                      "sha256":  "836421D0A7B2AF2852DD69E17D4EA044D6DE3A37CA6D7E187BCC597B531EF2C4"
+                  },
+                  {
+                      "relative_path":  "app\\integrations\\__init__.py",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "relative_path":  "app\\integrations\\acs_tr069\\acs_account_batch_runner.py",
+                      "bytes":  27118,
+                      "sha256":  "E5857661C1DAD2F18D19002508217C2C773866111E1CD95EAF73DD9454CDB9AF"
+                  },
+                  {
+                      "relative_path":  "app\\integrations\\acs_tr069\\acs_tr069_client.py",
+                      "bytes":  140197,
+                      "sha256":  "BDBB5B15B6D9EB18ED60374A0068D3083B5B6A82663F76DC1EBDF06F3873576C"
+                  },
+                  {
+                      "relative_path":  "app\\integrations\\diagnosticador\\script_diagnosticador_actual.py",
+                      "bytes":  127890,
+                      "sha256":  "3B5D2CAE4CB9EDE1356A0C9FAC91488EDAC0BA815E3B5B0D2A641E67C0BCD1C8"
+                  },
+                  {
+                      "relative_path":  "app\\integrations\\pathtrak\\__init__.py",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "relative_path":  "app\\integrations\\pathtrak\\pathtrak_spectrum.py",
+                      "bytes":  136198,
+                      "sha256":  "5F88EF324BC0363AA5B177BAE2FEB2E1FD8DC8D3CC230EA24F5E4CB78C7E9F43"
+                  },
+                  {
+                      "relative_path":  "app\\main.py",
+                      "bytes":  4987,
+                      "sha256":  "5BCC3472C3F469DB504D84B79CA3978439A215A848D89A1A57305AE3C10D52DA"
+                  },
+                  {
+                      "relative_path":  "app\\services\\__init__.py",
+                      "bytes":  39,
+                      "sha256":  "6567A1019AEA210B895E1DC46C16BF2CDF03D8AD71047CBE6D5AAEE761B6200C"
+                  },
+                  {
+                      "relative_path":  "app\\services\\cge_direcciones_descripcion_service.py",
+                      "bytes":  5265,
+                      "sha256":  "FE5C365E5F16442CD79D31BEC6A95EEA55653CF0CB1BC67C99B8A5D85E96F020"
+                  },
+                  {
+                      "relative_path":  "app\\services\\direcciones_downstream_service.py",
+                      "bytes":  20500,
+                      "sha256":  "1D0A847A7AA3AFDC766A5289648B912792F66D36D3EFFE84AADE543FD6AF7C0B"
+                  },
+                  {
+                      "relative_path":  "app\\services\\direcciones_router.py",
+                      "bytes":  24825,
+                      "sha256":  "0D45E51A9404EA6CE4AD138265833DFD9FBF45886D2AB76E95427D9F4BF945CB"
+                  },
+                  {
+                      "relative_path":  "app\\services\\ftth_atp_serials_service.py",
+                      "bytes":  4762,
+                      "sha256":  "655E04FD6D202465EA725C0E56FBCB3606F77592DE4450A9C735CE270D309965"
+                  },
+                  {
+                      "relative_path":  "app\\services\\ftth_troncal_direcciones_service.py",
+                      "bytes":  79999,
+                      "sha256":  "747884A3FAFFFC563BE0150A7EBB5C52FE869EC149CA92C9F94C0CB17806756D"
+                  },
+                  {
+                      "relative_path":  "app\\services\\ges_direcciones_notas_service.py",
+                      "bytes":  7041,
+                      "sha256":  "7A0B69A4D7D4D1B2124809CB400398B4EC516D9EEA7794D7F48B15681DDA3F2C"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\__init__.py",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\credential_state.py",
+                      "bytes":  2701,
+                      "sha256":  "3A2C873D0608DD817087A0D3BCCC54761C7997D424C748488EBA9348632EFE2C"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\runtime\\__init__.py",
+                      "bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\runtime\\helix_runner.py",
+                      "bytes":  91315,
+                      "sha256":  "A27B1D200B0F897BE0C0D12A1DA153929C461DE688C117E8041F0AEE90A4CDBE"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\runtime\\incident_related_items.py",
+                      "bytes":  39353,
+                      "sha256":  "306DFA83F1FB02091C1C5A26418EB5A0B18D7B0F795FCF3293EB4694702F6C80"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\runtime\\wo_related_dryrun.py",
+                      "bytes":  27246,
+                      "sha256":  "5B4221C379DC80E78B979A537E89FAF6A91AD2C451FB7B67040B7C90C43B3A8F"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\service.py",
+                      "bytes":  25545,
+                      "sha256":  "E126839A20237B67E69A3E291F978D9DC4123420466549438E61C6885C6E885F"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\smartit_scraper.py",
+                      "bytes":  73599,
+                      "sha256":  "74AD96D3618ED8F2CE34A29F98D1B4BFDA79A0637083FFF0D4B5F31085DA0B75"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\summary.py",
+                      "bytes":  62969,
+                      "sha256":  "734153BF96F2E61E24CB69088574C6DA48E4AE80AAE08CEFBA7201487ED9A69C"
+                  },
+                  {
+                      "relative_path":  "app\\services\\helix\\work_order_title_parser.py",
+                      "bytes":  7460,
+                      "sha256":  "8F41B430FFC2105D3AED4B5928242D5B30E9EEBFDB105DB246BC756E5D7A4612"
+                  },
+                  {
+                      "relative_path":  "app\\services\\hfc_direcciones_service.py",
+                      "bytes":  70182,
+                      "sha256":  "3496F3BE6F0187CA6C37E1F6DA66BBDCED4F515FBA29D1390FF236013CDDB484"
+                  },
+                  {
+                      "relative_path":  "app\\services\\hfc_macs_cache_service.py",
+                      "bytes":  2892,
+                      "sha256":  "BA322A5950C356D0DB4ACCCA468708304EC19D6568D4A14CD66724AB249F239F"
+                  },
+                  {
+                      "relative_path":  "app\\services\\hfc_remote_service.py",
+                      "bytes":  5189,
+                      "sha256":  "D17DDCEE0F7F7AE6BF0D4D97E8052F961088702331941BD60025EC37B4061B17"
+                  },
+                  {
+                      "relative_path":  "app\\services\\inventory_red_service.py",
+                      "bytes":  8030,
+                      "sha256":  "951167720CE94F9F5318A4ED1CA225AF37DB360D9ED440EB685491637AF258AC"
+                  },
+                  {
+                      "relative_path":  "app\\services\\response_contract.py",
+                      "bytes":  5797,
+                      "sha256":  "F8D30F1F3D5071726F0319D6AE76F95A33F3D09D9AB6FF253C87776707CC55C1"
+                  },
+                  {
+                      "relative_path":  "app\\services\\vm_ftth_direct_service.py",
+                      "bytes":  114559,
+                      "sha256":  "3CDA6026284239E798E096724179B729773B59B536AB5D4482B232BCB5A6BD4D"
+                  },
+                  {
+                      "relative_path":  "data\\ftth_atp\\4517_onu_query_20260911124546\\4517_onu_query_20260911124546_1.csv",
+                      "bytes":  22550441,
+                      "sha256":  "A9E0CA5556103EAD3C2D28454577206C41B5FAA9383CBD0A56F0CE05FD5334CE"
+                  },
+                  {
+                      "relative_path":  "data\\ftth_atp\\4517_onu_query_20260911124546\\4517_onu_query_20260911124546_2.csv",
+                      "bytes":  22592560,
+                      "sha256":  "B51A758667B9C377F879CC586F5FA106A960E235CEA663FEF7F2ABF453308F7C"
+                  },
+                  {
+                      "relative_path":  "data\\ftth_atp\\4517_onu_query_20260911124546\\4517_onu_query_20260911124546_3.csv",
+                      "bytes":  22507490,
+                      "sha256":  "8DD4BE2A9B4E7763BFC5A2F32237E0B7288C6AB785B5F873A462F5F8F8993D29"
+                  },
+                  {
+                      "relative_path":  "data\\ftth_atp\\4517_onu_query_20260911124546\\4517_onu_query_20260911124546_4.csv",
+                      "bytes":  22569445,
+                      "sha256":  "BD5BCFDED8CDECF7BAB146850DD5B68AADFF9D0DA27494C2FB1DFD3AAAC24312"
+                  },
+                  {
+                      "relative_path":  "data\\ftth_atp\\4517_onu_query_20260911124546\\4517_onu_query_20260911124546_5.csv",
+                      "bytes":  22599234,
+                      "sha256":  "5806F05672EED4B2568D9CB73270418CF71DD3B9D01E2594859FE2F70F837936"
+                  },
+                  {
+                      "relative_path":  "data\\ftth_atp\\4517_onu_query_20260911124546\\4517_onu_query_20260911124546_6.csv",
+                      "bytes":  22581090,
+                      "sha256":  "2938F66D570A9258748F251A39418577A4AA5F237AF0E2EEB9062D21036DFB1F"
+                  },
+                  {
+                      "relative_path":  "data\\ftth_atp\\4517_onu_query_20260911124546\\4517_onu_query_20260911124546_7.csv",
+                      "bytes":  17837840,
+                      "sha256":  "C5207C8C260E78FF55E2A7099329BA8E44EAC121FB2C413722CA6222CB19D45F"
+                  },
+                  {
+                      "relative_path":  "data\\pathtrak\\node_region_cache.json",
+                      "bytes":  2030,
+                      "sha256":  "786748CD675363331A8AE8B13A5A7C6ABC6A7D8649B8B5029B90F9A00DDF8905"
+                  },
+                  {
+                      "relative_path":  "README.md",
+                      "bytes":  1822,
+                      "sha256":  "7CDF533D1B250B1C5D4E5A9A3D34E695D0571BC8B2A2D3619EBFE2C489E7C047"
+                  },
+                  {
+                      "relative_path":  "requirements.txt",
+                      "bytes":  84,
+                      "sha256":  "755527F7DCD3A6FD0265478F7F388A33C42869EC829F01F49A0B311C8C338640"
+                  },
+                  {
+                      "relative_path":  "RUN_API_8021.ps1",
+                      "bytes":  879,
+                      "sha256":  "6201FAE22DC6477F570D25900B40F558662DE3B3AB8FC16B755139F6F3A587BF"
+                  }
+              ]
+}

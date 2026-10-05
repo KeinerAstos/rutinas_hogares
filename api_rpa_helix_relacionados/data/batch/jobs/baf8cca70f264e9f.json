@@ -1,0 +1,142 @@
+{
+  "job_id": "baf8cca70f264e9f",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-03T11:40:11",
+  "iniciado": "2026-09-03T11:40:11",
+  "finalizado": "2026-09-03T11:40:34",
+  "duracion_seg": 23.29,
+  "resultados": [
+    {
+      "inc": "INC000005748908",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node CAR12D SDS: SDS-RESTREPO Aliado: CICSA COLOMBIA S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 2,
+      "wo_relacionadas": [
+        "WO0000005419261",
+        "WO0000005420181"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [
+        {
+          "id": "INC000005748936",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000005748908",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "22/07/2026 10:24:06",
+          "tipo_ticket": "Evento Infraestructura"
+        },
+        {
+          "id": "INC000005749938",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005748908",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "22/07/2026 10:59:23",
+          "tipo_ticket": "Evento Infraestructura"
+        },
+        {
+          "id": "INC000005750892",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005748908",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "22/07/2026 11:30:04",
+          "tipo_ticket": "Evento Infraestructura"
+        },
+        {
+          "id": "INC000005751631",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005748908",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "22/07/2026 12:14:02",
+          "tipo_ticket": "Evento Infraestructura"
+        },
+        {
+          "id": "INC000005751528",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005748908",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "22/07/2026 11:57:23",
+          "tipo_ticket": "Evento Infraestructura"
+        },
+        {
+          "id": "INC000005783871",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000005748908",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "23/07/2026 13:47:07",
+          "tipo_ticket": "Evento Infraestructura"
+        },
+        {
+          "id": "INC000005790807",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "Servicio creado automaticamente por incidente N INC000005748908",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "23/07/2026 18:28:56",
+          "tipo_ticket": "Evento Infraestructura"
+        },
+        {
+          "id": "INC000005807251",
+          "tipo": "INC",
+          "tipo_relacion": "Original of",
+          "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000005748908",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-STA-ALIADO1",
+          "crear_fecha": "24/07/2026 12:45:04",
+          "tipo_ticket": "Evento Infraestructura"
+        },
+        {
+          "id": "WO0000005420181",
+          "tipo": "WO",
+          "tipo_relacion": "Created",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node CAR12D SDS: SDS-RESTREPO Aliado: CICSA COLOMBIA S.A. Gestor:",
+          "estado": "Closed",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "22/07/2026 11:50:56",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "WO0000005419261",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "FLUJO HFC (NODO CON AFECTACION) Node CAR12D SDS: SDS-RESTREPO Aliado: CICSA COLOMBIA S.A. Gestor:",
+          "estado": "Cancelled",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "22/07/2026 10:14:49",
+          "tipo_ticket": ""
+        }
+      ],
+      "duracion_seg": 17.62,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGB1WMOH55OIAT8LAZRT8LAZRFNMY&rand=0.9770493499913395 | TAB_MODO=FULL_RELATED_TABLE_CAPTURE_FAST | PAGINAS=1 | TOTAL_REL=10",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

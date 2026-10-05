@@ -1,0 +1,75 @@
+{
+  "job_id": "093f98ca50654fc2",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-08T10:43:56",
+  "iniciado": "2026-09-08T10:43:56",
+  "finalizado": "2026-09-08T10:45:13",
+  "duracion_seg": 77.33,
+  "resultados": [
+    {
+      "inc": "INC000006571650",
+      "titulo": "SOC - [ID: 1121445] - Degradacion QoE - [NODO MN1 (MOLINOS ANDALUCIA 1)] - Falla en Fugas, Ruido, Niveles",
+      "estado": "OK",
+      "estado_incidente": "In Progress",
+      "fecha_creacion_incidente": "08/09/2026 8:51:54",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "BOTON_ALARMAS_NO_ENCONTRADO"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005660020"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000283236"
+      ],
+      "relacionados_detalle": [
+        {
+          "id": "WO0000005660020",
+          "tipo": "WO",
+          "tipo_relacion": "Created by",
+          "titulo": "(SOC) - Degradacion QoE - (NODO MN1 ()) - Falla en Fugas, Ruido, Niveles",
+          "estado": "Assigned",
+          "usuario_asignado": "",
+          "grupo_asignado": "COL-NOIT-OPERACIONES-CAMPO-TRV",
+          "crear_fecha": "08/09/2026 8:51:57",
+          "tipo_ticket": ""
+        },
+        {
+          "id": "TAS000000283236",
+          "tipo": "TA",
+          "tipo_relacion": "",
+          "titulo": "",
+          "estado": "Pending",
+          "usuario_asignado": "",
+          "grupo_asignado": "",
+          "crear_fecha": "",
+          "tipo_ticket": "",
+          "estado_source": "dom_tasks"
+        }
+      ],
+      "duracion_seg": 68.93,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https:%2F%2Fmiasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&mode=GET&targetId=AGGCL1B0IG8MEATLBTG8TLBTG81KI7&rand=0.013146591512004036 | TAB_MODO=FULL_RELATED_TABLE_SCROLL_CAPTURED | PAGINAS=1 | TOTAL_REL=2",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

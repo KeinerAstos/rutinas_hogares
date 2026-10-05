@@ -1,0 +1,295 @@
+{
+  "job_id": "b4cb97e323eb49cc",
+  "estado": "COMPLETADO",
+  "total": 19,
+  "procesados": 19,
+  "workers": 7,
+  "creado": "2026-09-02T18:11:47",
+  "iniciado": "2026-09-02T18:11:47",
+  "finalizado": "2026-09-02T18:15:42",
+  "duracion_seg": 235.02,
+  "resultados": [
+    {
+      "inc": "INC000006509203",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node BMD SDS: SDS-PARAISO ROMANO Aliado: SICTE LTDA Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623740"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000263449"
+      ],
+      "duracion_seg": 17.96,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKRIXTTKRIXTCANZ&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006509108",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node UM2 SDS: SDS-VENECIA RESID Aliado: CICSA COLOMBIA S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623733"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 18.16,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGADUC3B7KD1ATKRINOTKRINON7K4&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006508833",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node 6CH SDS: SDS-B/QUILLA CENTRO Aliado: SICTE LTDA Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 2,
+      "wo_relacionadas": [
+        "WO0000005582768",
+        "WO0000005623902"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 17.36,
+      "worker": 3,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGACX33I7HHNATKRI32TKRI321ILE&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006508554",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node MFO2 SDS: SDS-CALI NORTE Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623729"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000262789"
+      ],
+      "duracion_seg": 24.93,
+      "worker": 4,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGCLP6IAQIHTATKRI3ITKRI3I2QR0&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006509020",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node FEL,FEL3F SDS: SDS-MADRID Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005625660"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 26.83,
+      "worker": 5,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGDHKV5ASYY8ATKRHZATKRHZAIHF8&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006507025",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node ZB4 SDS: SDS-PEREIRA CENTRO Aliado: DECIBELES S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623880"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 29.83,
+      "worker": 7,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKQZXWTKQZXWXH8N&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006508520",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node S4E SDS: SDS-CALI NORTE Aliado: TELCOS INGENIERIA S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005623717"
+      ],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000263165"
+      ],
+      "duracion_seg": 32.33,
+      "worker": 6,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGCLP6IAQIHTATKRGZ5TKRGZ51U43&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006507932",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 67.44,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006507932"
+    },
+    {
+      "inc": "INC000006508404",
+      "titulo": "HELIX: Servicio creado automaticamente por incidente N INC000006508404",
+      "estado": "OK",
+      "total_wo": 2,
+      "wo_relacionadas": [
+        "WO0000005623703",
+        "WO0000005626098"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 83.76,
+      "worker": 2,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKRFL6TKRFL6A7C1&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006507692",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 105.53,
+      "worker": 3,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006507692:DETECTADO="
+    },
+    {
+      "inc": "INC000006505873",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 118.89,
+      "worker": 4,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000006505873"
+    },
+    {
+      "inc": "INC000006503810",
+      "titulo": "",
+      "estado": "OK",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 1,
+      "ta_relacionadas": [
+        "TAS000000262907"
+      ],
+      "duracion_seg": 137.93,
+      "worker": 7,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Task&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKR5GOTKR5GOGVGF&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006503788",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 147.76,
+      "worker": 5,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006503788:DETECTADO="
+    },
+    {
+      "inc": "INC000006503968",
+      "titulo": "Servicio creado automaticamente por incidente N INC000006503968",
+      "estado": "RELACIONADOS_NO_CONFIRMADO",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 146.65,
+      "worker": 6,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGHW6KYG4OZ9ATKRI3HTKRI3HBQ12&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006463217",
+      "titulo": "FOHFC: MR_T1: Sin Retorno / Nodo ZB4,ZB42",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005592284"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 108.41,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=IDGFD8WNJ2RBHATKL6DSTKL6DSGSR7&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006494412",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node MOD4F SDS: SDS-DOSQUEBRADAS RESID Aliado: Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005616123"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 80.03,
+      "worker": 3,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGGS5AQJPPLBATKOXCZTKOXCZPN8U&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006440534",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node PA14D SDS: SDS-SUBA DATACENTER Aliado: DICO TELECOMUNICACIONES S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 3,
+      "wo_relacionadas": [
+        "WO0000005582943",
+        "WO0000005584759",
+        "WO0000005588337"
+      ],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 62.2,
+      "worker": 4,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGELVCHJ0X3UATK7NJQTK7NJQ7C2B&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006387408",
+      "titulo": "Servicio creado automaticamente por incidente N INC000006387408",
+      "estado": "RELACIONADOS_NO_CONFIRMADO",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 45.55,
+      "worker": 7,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGBSPYPGS24MATK5XZFTK5XZFKZMO&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000006503829",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 121.63,
+      "worker": 2,
+      "frame_url": "",
+      "error": "RuntimeError: INC_ABIERTO_NO_CONFIRMADO:SOLICITADO=INC000006503829:DETECTADO="
+    }
+  ],
+  "error": ""
+}

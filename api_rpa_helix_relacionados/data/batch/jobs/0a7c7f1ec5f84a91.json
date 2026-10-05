@@ -1,0 +1,82 @@
+{
+  "job_id": "0a7c7f1ec5f84a91",
+  "estado": "COMPLETADO",
+  "total": 4,
+  "procesados": 4,
+  "workers": 4,
+  "creado": "2026-09-02T15:51:34",
+  "iniciado": "2026-09-02T15:51:34",
+  "finalizado": "2026-09-02T15:52:00",
+  "duracion_seg": 26.18,
+  "resultados": [
+    {
+      "inc": "INC000005761532",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 14.2,
+      "worker": 2,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000005761532"
+    },
+    {
+      "inc": "INC000005748908",
+      "titulo": "FLUJO HFC (NODO CON AFECTACION) Node CAR12D SDS: SDS-RESTREPO Aliado: CICSA COLOMBIA S.A. Gestor: Kou-Aware1",
+      "estado": "OK",
+      "total_wo": 2,
+      "wo_relacionadas": [
+        "WO0000005419261",
+        "WO0000005420181"
+      ],
+      "total_ta": 4,
+      "ta_relacionadas": [
+        "TAS000000154910",
+        "TAS000000154911",
+        "TAS000000154912",
+        "TAS000000155118"
+      ],
+      "duracion_seg": 15.99,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGB1WMOH55OIAT8LAZRT8LAZRFNMY&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000005764255",
+      "titulo": "Flujo FTTH: TRONCAL PARCIALMENTE CAIDA HAC-BOG.FONTIBONH-CP1,Frame=0 Slot=1 Subslot=65535 Port=9 ID Alarm: optica_parcial",
+      "estado": "OK",
+      "total_wo": 1,
+      "wo_relacionadas": [
+        "WO0000005421901"
+      ],
+      "total_ta": 5,
+      "ta_relacionadas": [
+        "TAS000000151871",
+        "TAS000000152387",
+        "TAS000000152388",
+        "TAS000000152389",
+        "TAS000000152390"
+      ],
+      "duracion_seg": 14.33,
+      "worker": 3,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGB1WMOH55OIAT8LLNZT8LLNZ7XN9&mode=GET&context=PREVIEW | TAB_MODO=FALLBACK_PWA_SCAN | PAGINAS=1",
+      "error": ""
+    },
+    {
+      "inc": "INC000005764375",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "duracion_seg": 13.51,
+      "worker": 4,
+      "frame_url": "",
+      "error": "RuntimeError: INC_NO_ENCONTRADO_UNICO:INC000005764375"
+    }
+  ],
+  "error": ""
+}

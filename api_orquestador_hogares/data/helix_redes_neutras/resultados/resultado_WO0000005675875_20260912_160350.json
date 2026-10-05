@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005675875",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006599407",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R2_INM_CTA.25330894_LLS.8658256_UMM_MTO FTTH_MEDELLIN _SIN POTENCIA_TRONCAL XQ1113",
+      "estado": "Resolved",
+      "usuario_asignado": "",
+      "grupo_asignado": "COL-NOIT-CGENOROCCIDENTE",
+      "crear_fecha": "10/09/2026 10:08:32",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006599407",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 6,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 2,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 2,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "descarga (54).png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005675875\\INC000006599407\\descarga (54).png",
+      "error": ""
+    },
+    {
+      "indice": 2,
+      "nombre": "descarga (51).png",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005675875\\INC000006599407\\descarga (51).png",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 49.59
+}

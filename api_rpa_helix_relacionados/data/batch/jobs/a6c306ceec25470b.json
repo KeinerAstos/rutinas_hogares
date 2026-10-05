@@ -1,0 +1,46 @@
+{
+  "job_id": "a6c306ceec25470b",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-04T14:18:55",
+  "iniciado": "2026-09-04T14:18:55",
+  "finalizado": "2026-09-04T14:19:58",
+  "duracion_seg": 63.69,
+  "resultados": [
+    {
+      "inc": "INC000006526896",
+      "titulo": "",
+      "estado": "ERROR",
+      "estado_incidente": "",
+      "alarmas": {
+        "consultado": false,
+        "total": null,
+        "activas": null,
+        "canceladas": null,
+        "capturadas": 0,
+        "captura_completa": false,
+        "detalle": [],
+        "activas_detalle": [],
+        "source": "",
+        "error": "NO_CONSULTADO_POR_ERROR_INC"
+      },
+      "alarmas_total": null,
+      "alarmas_activas_total": null,
+      "alarmas_canceladas_total": null,
+      "alarmas_activas_detalle": [],
+      "alarmas_detalle": [],
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [],
+      "duracion_seg": 58.26,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: TABLA_RELACIONADOS_TIMEOUT_25S:INC000006526896"
+    }
+  ],
+  "error": ""
+}

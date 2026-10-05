@@ -1,0 +1,28 @@
+{
+  "job_id": "57100a41ebb54372",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-03T15:13:03",
+  "iniciado": "2026-09-03T15:13:03",
+  "finalizado": "2026-09-03T15:14:12",
+  "duracion_seg": 69.68,
+  "resultados": [
+    {
+      "inc": "INC000006465411",
+      "titulo": "",
+      "estado": "ERROR",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [],
+      "duracion_seg": 61.07,
+      "worker": 1,
+      "frame_url": "",
+      "error": "RuntimeError: TABLA_RELACIONADOS_TIMEOUT_25S:INC000006465411"
+    }
+  ],
+  "error": ""
+}

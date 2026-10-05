@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005662571",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006573257",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_ATE_R4_RN_SIC _CTA.48338932_UMM_MTO_FTTH_SIN SEÑAL_BOGOTA NODO XT156Q",
+      "estado": "In Progress",
+      "usuario_asignado": "Javier BARRIOS",
+      "grupo_asignado": "COL-NOIT-CGECENTRO",
+      "crear_fecha": "08/09/2026 12:34:40",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006573257",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": true,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 7,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 2,
+  "cantidad_adjuntos_wo": 1,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "Samuel1.pdf",
+      "origen": "WO_WO_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005662571\\WO0000005662571\\Samuel1.pdf",
+      "error": ""
+    },
+    {
+      "indice": 2,
+      "nombre": "Samuel1.pdf",
+      "origen": "INC_INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005662571\\INC000006573257\\Samuel1.pdf",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 35.37
+}

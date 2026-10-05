@@ -1,0 +1,10 @@
+﻿API_RPA_HELIX_RELACIONADOS
+FECHA=2026-09-10 22:02:08
+ORIGEN=C:\xampp\htdocs\CentralNOC\modules\Dashboard_Hogar\backend
+
+ARCHIVOS:
+C:\xampp\htdocs\CentralNOC\modules\Dashboard_Hogar\backend\app\services\helix\incident_related_batch_service.py | SHA256=D09B670A8A4777160261900259A0B9F7BF5D7ED5E27DA602B49A9FDE0E3B0D09
+C:\xampp\htdocs\CentralNOC\modules\Dashboard_Hogar\backend\app\services\helix\task_related_service.py | SHA256=CD53DE0C40896A2854111C6DAB6F67334FB37A50A3D6CBECD459AFF138DA25AB
+C:\xampp\htdocs\CentralNOC\modules\Dashboard_Hogar\backend\app\services\helix\smartit_scraper.py | SHA256=9D609BDAF721F72B291B66B9D830EE6359EA4ED03BCA18E159ECEFF64E2A950A
+C:\xampp\htdocs\CentralNOC\modules\Dashboard_Hogar\backend\app\services\helix\credential_state.py | SHA256=3A2C873D0608DD817087A0D3BCCC54761C7997D424C748488EBA9348632EFE2C
+C:\xampp\htdocs\CentralNOC\modules\Dashboard_Hogar\backend\app\config\endpoints_settings.py | SHA256=568ABC634497E911E04DB762C6F5828C9FCB07D2F3737FDB89E5A1FF7A081A56

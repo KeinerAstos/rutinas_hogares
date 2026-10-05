@@ -1,0 +1,28 @@
+{
+  "job_id": "994d0faa11eb41cb",
+  "estado": "COMPLETADO",
+  "total": 1,
+  "procesados": 1,
+  "workers": 1,
+  "creado": "2026-09-03T10:40:09",
+  "iniciado": "2026-09-03T10:40:09",
+  "finalizado": "2026-09-03T10:41:33",
+  "duracion_seg": 84.44,
+  "resultados": [
+    {
+      "inc": "INC000006387408",
+      "titulo": "Servicio creado automaticamente por incidente N INC000006387408",
+      "estado": "RELACIONADOS_NO_CONFIRMADO",
+      "total_wo": 0,
+      "wo_relacionadas": [],
+      "total_ta": 0,
+      "ta_relacionadas": [],
+      "relacionados_detalle": [],
+      "duracion_seg": 79.18,
+      "worker": 1,
+      "frame_url": "https://miasistencia360.claro.com.co/arsys/pwa/#/forms/onbmc-s/SHR:SV_TicketDisplay/SV_TicketDisplay?origin=https://miasistencia360-smartit.claro.com.co&targetForm=Incident&targetView=SV_View&targetId=AGGDCL9PHT11LATK0A00TK0A00DLG4&mode=GET&context=PREVIEW | TAB_MODO=TABLE_NO_CONFIRMADA | PAGINAS=1",
+      "error": ""
+    }
+  ],
+  "error": ""
+}

@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "origen": "HELIX",
+  "tipo_consulta": "REDES_NEUTRAS",
+  "ot": "WO0000005751385",
+  "ot_encontrada": true,
+  "incidentes_relacionados": [
+    {
+      "id": "INC000006709745",
+      "tipo_relacion": "Created by",
+      "titulo": "CGE_GNP_R3 TAB_RN_CTA.95784951 UMM_MTO_CAL_ SIN POTENCIA XK1257",
+      "estado": "In Progress",
+      "usuario_asignado": "Asmed Fermamdez",
+      "grupo_asignado": "COL-NOIT-CGEOCCIDENTE",
+      "crear_fecha": "18/09/2026 11:15:49",
+      "tipo_ticket": ""
+    }
+  ],
+  "incidente_abierto": "INC000006709745",
+  "tabla_adjuntos_encontrada": true,
+  "tabla_adjuntos_wo_encontrada": false,
+  "tabla_adjuntos_inc_encontrada": true,
+  "actividad_revisada": true,
+  "registros_actividad_revisados": 0,
+  "documentos_adjuntos_encontrados": true,
+  "cantidad_documentos_adjuntos": 1,
+  "cantidad_adjuntos_wo": 0,
+  "cantidad_adjuntos_inc": 1,
+  "requiere_seleccion": false,
+  "adjuntos": [
+    {
+      "indice": 1,
+      "nombre": "Evidencias2 - 2026-09-18T111517.751.docx",
+      "origen": "INC_TABLA_ADJUNTO",
+      "registro_actividad": 0,
+      "descargado": true,
+      "ruta_local": "C:\\ProgramData\\CentralNOC\\Dashboard_Hogar\\data\\helix_redes_neutras\\descargas\\WO0000005751385\\INC000006709745\\Evidencias2 - 2026-09-18T111517.751.docx",
+      "error": ""
+    }
+  ],
+  "error": "",
+  "codigo": "HELIX_ADJUNTOS_DESCARGADOS",
+  "duracion_seg": 25.09
+}
