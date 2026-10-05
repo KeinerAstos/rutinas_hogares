@@ -5,6 +5,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from fastapi import FastAPI
+from app.config.oracle_settings import OracleSettings
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
@@ -49,12 +50,21 @@ def health() -> dict:
         name: bool(str(os.getenv(name) or "").strip())
         for name in required
     }
+    oracle = OracleSettings.from_env()
 
     return {
         "ok": all(configured.values()),
         "service": "api_rpa_helix_relacionados",
         "version": "1.0.0",
         "config": configured,
+        "oracle": {
+            "configured": oracle.configured,
+            "host": bool(oracle.host),
+            "service": bool(oracle.service),
+            "user": bool(oracle.user),
+            "password": bool(oracle.password),
+        },
+        "oracle_ok": oracle.configured,
         "controls": {
             "pausar": False,
             "reanudar": False,

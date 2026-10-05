@@ -18,10 +18,16 @@ from playwright.async_api import async_playwright
 from app.services.helix.smartit_scraper import Settings
 from app.config.endpoints_settings import get_smartit_url
 
-URL_HELIX = get_smartit_url()
+try:
+    URL_HELIX = get_smartit_url()
+except RuntimeError:
+    # Oracle Related no longer requires SmartIT configuration at import time.
+    # Legacy browser helpers remain available when their settings are present.
+    URL_HELIX = ""
 
 INC_RE = re.compile(r"^INC\d{12}$", re.I)
 TAS_RE = re.compile(r"^TAS\d{12}$", re.I)
+ORACLE_WO_RE = re.compile(r"^WO\d{7,}$", re.I)
 
 WO_RE = re.compile(r"\bWO\d{7,}\b", re.I)
 TA_RE = re.compile(r"\b(?:TA|TAS)\d{5,}\b", re.I)
@@ -149,7 +155,11 @@ def iniciar_job(
     for raw in incidentes:
         ticket = str(raw or "").strip().upper()
 
-        if not (INC_RE.fullmatch(ticket) or TAS_RE.fullmatch(ticket)):
+        if not (
+            INC_RE.fullmatch(ticket)
+            or TAS_RE.fullmatch(ticket)
+            or ORACLE_WO_RE.fullmatch(ticket)
+        ):
             continue
 
         if ticket in seen:
@@ -162,7 +172,7 @@ def iniciar_job(
         return {
             "ok": False,
             "codigo": "HELIX_BATCH_SIN_TICKETS_VALIDOS",
-            "respuesta": "No se recibieron INC o TAS validos.",
+            "respuesta": "No se recibieron INC, TAS o WO validos.",
         }
 
     worker_count = max(
@@ -4490,6 +4500,55 @@ async def _wait_job_resumable(job_id: str) -> bool:
         await asyncio.sleep(1.0)
 
 
+async def oracle_worker_loop(
+    job_id: str,
+    worker: int,
+    queue: asyncio.Queue,
+    area: str,
+):
+    from app.services.helix.oracle_related_service import consultar_ticket
+
+    log = _logger(job_id, worker)
+    while await _wait_job_resumable(job_id):
+        try:
+            ticket = queue.get_nowait()
+        except asyncio.QueueEmpty:
+            return
+        if not await _wait_job_resumable(job_id):
+            queue.put_nowait(ticket)
+            queue.task_done()
+            return
+        started = time.perf_counter()
+        log.info("ORACLE_TICKET_START ticket=%s area=%s", ticket, area)
+        try:
+            result = await asyncio.to_thread(consultar_ticket, ticket, worker)
+        except Exception as exc:
+            result = {
+                "inc": "", "ticket_consultado": ticket,
+                "tipo_consulta": "WO" if ORACLE_WO_RE.fullmatch(ticket) else "",
+                "titulo": "", "estado": "ERROR", "estado_incidente": "",
+                "fecha_creacion_incidente": "", "alarmas": {
+                    "consultado": False, "total": None, "activas": None,
+                    "canceladas": None, "capturadas": 0,
+                    "captura_completa": False, "detalle": [],
+                    "activas_detalle": [], "source": "ORACLE",
+                    "error": "NO_CONSULTADO_POR_ERROR_TICKET",
+                },
+                "alarmas_total": None, "alarmas_activas_total": None,
+                "alarmas_canceladas_total": None, "alarmas_activas_detalle": [],
+                "alarmas_detalle": [], "total_wo": 0, "wo_relacionadas": [],
+                "total_ta": 0, "ta_relacionadas": [],
+                "relacionados_detalle": [], "duracion_seg": round(time.perf_counter() - started, 2),
+                "worker": worker, "frame_url": "", "fuente_datos": "ORACLE_REPLICA",
+                "error": f"ORACLE_DATABASE_ERROR: {type(exc).__name__}: {exc}",
+            }
+        result.setdefault("worker", worker)
+        result.setdefault("duracion_seg", round(time.perf_counter() - started, 2))
+        _append_result(job_id, result)
+        log.info("ORACLE_TICKET_END ticket=%s estado=%s", ticket, result.get("estado"))
+        queue.task_done()
+
+
 async def worker_loop(
     p,
     job_id: str,
@@ -4953,48 +5012,16 @@ async def _run_async(job_id: str):
             job["iniciado"] = _now()
             _write_job(job_id)
 
-        cfg = Settings.from_env()
-
-        username = str(cfg.username or "").strip()
-
-        password = str(cfg.password or "")
-
-        if not username or not password:
-            raise RuntimeError("CREDENCIALES_HELIX_NO_DISPONIBLES")
-
         queue: asyncio.Queue = asyncio.Queue()
-
-        # Lock por job: solo protege Global Search.
-        # La extraccion de relacionados sigue concurrente.
-        search_lock = asyncio.Lock()
 
         for inc in incidents:
             queue.put_nowait(inc)
 
-        async with async_playwright() as p:
-            tasks = [
-                asyncio.create_task(
-                    worker_loop(
-                        p,
-                        job_id,
-                        worker,
-                        queue,
-                        username,
-                        password,
-                        search_lock,
-                        area,
-                    )
-                )
-                for worker in range(
-                    1,
-                    worker_count + 1,
-                )
-            ]
-
-            await asyncio.gather(
-                *tasks,
-                return_exceptions=True,
-            )
+        tasks = [
+            asyncio.create_task(oracle_worker_loop(job_id, worker, queue, area))
+            for worker in range(1, worker_count + 1)
+        ]
+        await asyncio.gather(*tasks, return_exceptions=True)
 
         with _LOCK:
             job = _JOBS[job_id]
@@ -5015,40 +5042,16 @@ async def _run_async(job_id: str):
                 except asyncio.QueueEmpty:
                     break
 
+                from app.services.helix.oracle_related_service import _error
                 _append_result(
                     job_id,
-                    {
-                        "inc": inc,
-                        "titulo": "",
-                        "estado": "ERROR",
-                        "estado_incidente": "",
-                        "alarmas": {
-                            "consultado": False,
-                            "total": None,
-                            "activas": None,
-                            "canceladas": None,
-                            "capturadas": 0,
-                            "captura_completa": False,
-                            "detalle": [],
-                            "activas_detalle": [],
-                            "source": "",
-                            "error": "NO_CONSULTADO_POR_ERROR_INC",
-                        },
-                        "alarmas_total": None,
-                        "alarmas_activas_total": None,
-                        "alarmas_canceladas_total": None,
-                        "alarmas_activas_detalle": [],
-                        "alarmas_detalle": [],
-                        "total_wo": 0,
-                        "wo_relacionadas": [],
-                        "total_ta": 0,
-                        "ta_relacionadas": [],
-                        "relacionados_detalle": [],
-                        "duracion_seg": 0.0,
-                        "worker": 0,
-                        "frame_url": "",
-                        "error": "WORKER_NO_DISPONIBLE",
-                    },
+                    _error(
+                        inc,
+                        "INC" if INC_RE.fullmatch(inc) else "TAS" if TAS_RE.fullmatch(inc) else "WO",
+                        0,
+                        "WORKER_NO_DISPONIBLE",
+                        0.0,
+                    ),
                 )
 
         with _LOCK:

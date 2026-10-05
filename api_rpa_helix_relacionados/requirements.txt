@@ -2,3 +2,5 @@
 uvicorn[standard]
 python-dotenv
 playwright
+oracledb
+tzdata
