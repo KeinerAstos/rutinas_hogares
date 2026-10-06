@@ -22,6 +22,7 @@ from app.services.helix.runtime.helix_runner import (
 )
 
 from app.services.helix.summary import consultar_resumen_async
+from app.services.helix.oracle_summary_service import consultar_resumen_ot_oracle
 
 from app.services.helix.credential_state import get_credentials_alert
 
@@ -690,8 +691,26 @@ def _consultar_resumen_ot_helix_base(ot: str) -> dict[str, Any]:
 
 
 def consultar_resumen_ot_helix(ot: str) -> dict[str, Any]:
-    # HELIX_SINGLE_SESSION_PUBLIC_V3
-    return _consultar_resumen_ot_helix_base(ot)
+    normalized_ot = str(ot or "").strip().upper()
+    if not _WO_RE.fullmatch(normalized_ot):
+        return _consultar_resumen_ot_helix_base(ot)
+
+    try:
+        oracle_result = consultar_resumen_ot_oracle(normalized_ot)
+        if oracle_result.get("ok") and oracle_result.get("codigo") != "ORACLE_GES_SMARTIT_REQUIRED":
+            return oracle_result
+        if oracle_result.get("codigo") == "ORACLE_GES_SMARTIT_REQUIRED":
+            print(f"DIRECCIONES_ORACLE wo={normalized_ot} status=GES_SMARTIT_ENRICHMENT", flush=True)
+        else:
+            print(f"DIRECCIONES_ORACLE wo={normalized_ot} status=FALLBACK_SMARTIT code={oracle_result.get('codigo')}", flush=True)
+    except Exception as exc:
+        print(
+            f"DIRECCIONES_ORACLE wo={normalized_ot} status=FALLBACK_SMARTIT error={type(exc).__name__}",
+            flush=True,
+        )
+    smartit_result = _consultar_resumen_ot_helix_base(normalized_ot)
+    smartit_result.setdefault("data", {})["fuente_resumen"] = "SMARTIT_FALLBACK"
+    return smartit_result
 
 
 # HELIX_INC_RELATED_ITEMS_ATLAS_V1
